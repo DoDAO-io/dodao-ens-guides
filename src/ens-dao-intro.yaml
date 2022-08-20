@@ -1,0 +1,23 @@
+# References
+# Second Draft of the ENS DAO By-laws for comment - https://discuss.ens.domains/t/second-draft-of-the-ens-dao-by-laws-for-comment/11462
+# Transitioning the DAO to an RFP model - https://discuss.ens.domains/t/transitioning-the-dao-to-an-rfp-model/11821/17
+# On the nature of DAOs and their projection on Electoral & Corporate structures - https://discuss.ens.domains/t/on-the-nature-of-daos-and-their-projection-on-electoral-corporate-structures/11304
+#
+uuid: asd
+key: ens-dao-overview
+name: ENS DAO Overview
+content: Explains what is ENS DAO
+guideType: onboarding
+created: "2022-08-02T04:15:13.911Z"
+categories:
+  - introduction
+thumbnail: ipfs://QmNd8S5Z9T8cWv95UUjn5fYR1wU8nLWjeHzXoRC5oVcVe8
+publishStatus: Live
+socialShareImage:
+showIncorrectOnCompletion: true
+steps:
+  - uuid: sd
+    name: ENS DAO Overview
+    content: |
+      Hard core developer guide which explains what APIs to call to integrate with Serum DEX
+    stepItems: []

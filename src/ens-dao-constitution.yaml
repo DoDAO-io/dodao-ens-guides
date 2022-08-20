@@ -1,0 +1,107 @@
+uuid: e7fd548a-27bf-4c65-8b80-36a42af30e6a
+key: ens-constitution
+name: ENS DAO Constitution
+content: Set of binding rules that guide ENS DAO actions
+guideType: onboarding
+created: "2022-08-02T04:15:13.911Z"
+categories:
+  - developer
+  - engineering
+thumbnail: https://d31h13bdjwgzxs.cloudfront.net/guides/eth/aave/AAVE_Portals.png
+publishStatus: Live
+socialShareImage:
+showIncorrectOnCompletion: true
+steps:
+  - uuid: 5732e8b9-3df4-447b-9bed-bb086e1637d1
+    name: Overview
+    content: |
+      ### About ENS Constitution
+      The ENS constitution is a set of binding rules that determine what governance actions are legitimate for the DAO to take.
+      
+      Each article has examples of permissible and non-permissible actions. These examples are illustrative and should 
+      not be considered a binding part of the text of the constitution itself.
+      
+      It was signed by more than 84,350 accounts. Digital copy of the constitution can be found at [https://ensdao.eth.limo/constitution.pdf](https://ensdao.eth.limo/constitution.pdf)
+
+      ### About ENS Foundation
+      The ENS Foundation is a non-profit organization that is incorporated in the Cayman Islands. This type of foundation 
+      company cannot have shareholders and cannot pay out dividends to its directors or members. 
+
+      The ENS Foundation has three directors: Nick Johnson, Brantly Millegan, and Kevin Gaspar. These individuals are also 
+      part of the ENS core team. The directors are responsible for the day-to-day operations of the foundation.
+      
+      ### About Constiution Proposal
+      The ENS constitution proposal was proposed and passed in November 2021. The proposal required  at least 67% 
+      approval of all votes cast in the first week of the token launch by users when they claim their tokens.
+      
+      Here is the link to the proposal - [https://discuss.ens.domains/t/proposed-ens-constitution/814](https://discuss.ens.domains/t/proposed-ens-constitution/814)
+    stepItems: []
+  - uuid: 7839e688-abe0-4c5d-96fd-9bc512e80ad2
+    name: Name ownership shall not be infringed
+    content: |
+      ENS governance will not enact any change that infringes on the rights of ENS users to retain names they own,
+      or unfairly discriminate against name owners’ ability to extend, transfer, or otherwise use their names.
+
+      ## EXAMPLES
+      #### Permissible      
+      ENS governance may enact a change affecting the registration or extension costs of all names based on transparent 
+      criteria such as length, as long as it pursues a goal outlined in this constitution.      
+      
+      #### Not Permissible
+      ENS governance must not enact a change increasing or reducing the extension costs of a list of existing ENS names,
+      as this would unfairly benefit or penalise a handpicked group
+  - uuid: ecfef4da-e01e-4352-a9a1-62492ff9f7d9
+    name: Fees are primarily an incentive mechanism
+    content: |
+      The primary purpose of registration fees is as an incentive mechanism to prevent the namespace becoming overwhelmed 
+      with speculatively registered names. A secondary purpose is to provide enough revenue to the DAO to fund ongoing 
+      development and improvement of ENS. ENS governance will not enact any fee other than for these purposes.
+
+      ## EXAMPLES
+      #### Permissible      
+      ENS governance may increase the price of name registrations in order to address excessive speculative registrations 
+      induced by a price that is set too low, or because the current price is insufficient to fund ongoing ENS operations 
+      at a reasonable level.     
+      
+      #### Not Permissible
+      ENS governance must not enact a change imposing a fee for claiming DNS domains inside ENS, because such a fee would 
+      be purely an income generating measure and not an incentive mechanism.
+  - uuid: 08386266-78eb-4272-80ad-3c7c458d1651
+    name: Income funds ENS and other public goods
+    content: |
+      Any income generated to the ENS treasury is to be used first of all to ensure the long-term viability of ENS, and 
+      to fund continuing development and improvement of the ENS system. Funds that are not reasonably required to achieve
+      this goal may be used to fund other public goods within web3 as ENS governance sees fit
+
+      ENS governance will not allocate funds to a team or individual who does not commit to uphold the same principles 
+      outlined in this constitution in their use of the allocated funds.
+      
+      ## EXAMPLES
+      #### Permissible      
+      ENS governance may offer grant funding for a public good unrelated to ENS or Ethereum, so long as doing so does 
+      not affect the long-term viability of ENS.    
+      
+      #### Not Permissible
+      ENS governance must not use the funds to support projects that conflict with the goals of ENS.
+  - uuid: ee595ceb-08d6-4c0f-a49e-0210952701b3
+    name: ENS Integrates with the global namespace
+    content: |
+      In order to facilitate making the most widely usable naming system, ENS aims to integrate with the legacy DNS 
+      naming system to the greatest extent possible without sacrificing decentralization of ENS. ENS governance will not 
+      enact changes that compromise ENS’s ability to do this.
+      
+      ## EXAMPLES
+      #### Permissible      
+      ENS governance should grant control of a top-level domain to its owner in the DNS system on request.    
+      
+      #### Not Permissible
+      ENS governance must not create new top-level domains unless those domains have been granted to ENS by a DNS 
+      authority
+  - uuid: bfda4cc0-fc6d-432f-b5b7-d043c04aa508
+    name: Amendments to this constitution by majority vote
+    content: |
+      Any change may be made to this constitution only by two-thirds majority and at least 1% of all tokens participating
+      
+      
+      
+      
