@@ -11,7 +11,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  | 2      | ENS Proposal Process | Gives and overview on how a member can submit a proposal |  [Link](generated/markdown/ens-proposal-process.md) |
  | 3      | ENS DAO Overview | Explains what is ENS DAO and its By laws |  [Link](generated/markdown/ens-dao-intro.md) |
  | 4      | Intro to ENS | Explains how ENS Domains work |  [Link](generated/markdown/intro-to-ens.md) |
- | 5      | ENS Workign Groups | Waht are working groups and the responsibilities performed by various working groups |  [Link](generated/markdown/ens-working-groups.md) |
+ | 5      | ENS Workign Groups | What are working groups and the responsibilities performed by various working groups |  [Link](generated/markdown/ens-working-groups.md) |
  | 6      | How to transfer ownership | Explains how to transfer the ownership of your ENS Domain |  [Link](generated/markdown/how-to-transfer-ownership.md) |
  | 7      | How to Set Avatar | Explains how to set on Avatar for you ENS domain |  [Link](generated/markdown/how-to-set-avatar.md) |
  | 8      | How to set Text Records | Explains how to set text records for your ENS domain |  [Link](generated/markdown/how-to-set-text-records.md) |
