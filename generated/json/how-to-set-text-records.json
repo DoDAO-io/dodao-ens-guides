@@ -1,0 +1,24 @@
+{
+  "uuid": "4851bb6d-344b-438c-8448-93a9bd2aa34b",
+  "key": "how-to-set-text-records",
+  "name": "How to set Text Records",
+  "content": "Explains how to set text records for your ENS domain",
+  "guideType": "onboarding",
+  "created": "2022-08-02T04:15:13.911Z",
+  "categories": [
+    "introduction",
+    "engineering"
+  ],
+  "thumbnail": "ipfs://QmNd8S5Z9T8cWv95UUjn5fYR1wU8nLWjeHzXoRC5oVcVe8",
+  "publishStatus": "Live",
+  "socialShareImage": null,
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "uuid": "7afc244d-aa7b-44f1-9815-d52cdea4d21f",
+      "name": "ENS DAO Overview",
+      "content": "# COMING SOON\n",
+      "stepItems": []
+    }
+  ]
+}

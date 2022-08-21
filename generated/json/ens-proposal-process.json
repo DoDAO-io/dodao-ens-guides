@@ -1,0 +1,54 @@
+{
+  "uuid": "09cc501f-3f9d-4665-9d58-f1e9341ef7bb",
+  "key": "ens-proposal-process",
+  "name": "ENS Proposal Process",
+  "content": "Gives and overview on how a member can submit a proposal",
+  "guideType": "onboarding",
+  "created": "2022-08-02T04:15:13.911Z",
+  "categories": [
+    "developer",
+    "engineering"
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/guides/eth/aave/AAVE_Portals.png",
+  "publishStatus": "Live",
+  "socialShareImage": null,
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "uuid": "8c38f509-be5a-4462-864a-3ef62f84c791",
+      "name": "RFP Overview",
+      "content": "ENS DAO operates primarily through \"Requests for Proposal\" (RFPs). An RFP is a request from the DAO for \ncontributors to offer to do work on its behalf, and receive compensation in return.\n\nIf you identify a need that you believe you can address, you can write an RFP. Once the RFP is passed, anyone can \nwrite a proposal in response and be awarded the work. Even if you believe you can do the work yourself, you will \nstill need to pass an RFP in order to be awarded the work (and corresponding compensation) by the DAO.\n\nRFPs can be short or long, depending on the project. An RFP for improving the DAO's documentation may only be a \nparagraph or two long, and proposals for it will be equally short. However, an RFP for managing the DAO's funds \nmay be lengthy, and a successful proposal could be multiple pages justifying the proposer's ability to take on the job.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "33c45d1b-6715-4d1e-805a-a444396f7673",
+      "name": "Proposal Process Overview",
+      "content": "Proposals follow three basic steps:\n1) Temperature check. Post to the worksteam’s Temp Check category to get feedback on your idea before creating a \n   formal proposal.\n2) Draft proposal. Create a draft proposal by creating a new post and selecting the appropriate “Draft Proposals” \n   subcategory. A proposal template will be populated; fill it out, submit it, and solicit feedback on it.\n\n3) Active Proposal. Ask a moderator to move your mature draft to the Active Proposals category and start a vote.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "43fd515e-3585-402a-889b-17cfe635d21b",
+      "name": "Phase 1: Temperature Check — Discourse",
+      "content": "The purpose of the Temperature Check is to determine if there is sufficient will to make changes to the status quo.\n\nTo create a Temperature Check, ask a general, non-biased question to the community on \n[discuss.ens.domains](https://discuss.ens.domains/) about a potential change (example: “Should ENS decrease \nregistration costs for 3-letter domains?”). Forum posts should be in the \"DAO-wide -> Temperature Check\" category.\n\nTemperature checks are informal and optional; it's up to you to use the feedback to decide if you want to proceed \nfurther with your proposal.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "38650c76-cd01-41cb-90d2-f140bd80566a",
+      "name": "Phase 2: Draft proposal",
+      "content": "## RFP Process\n1) POST an RFP on the DAO forum with the following information:\n    - The need for the RFP\n    - Description of work to be done, including scope of work, deliverables, timelines and maximum budget\n    - Nomination of a party who will select a winning bid and approve & disburse compensation (the RFP manager)\n2) If the stewards agree to adopt your proposal, they will need to decide if it can be paid out of WG funds, or \n   if it requires a DAO-wide vote.\n3) If the stewards agree to adopt your RFP, they will decide if it can be paid out of WG funds, or if it needs a DAO wide vote.\n      a. If the RFP can be paid out of WG funds, they will set a submission period and post it as an active RFP.\n      b. Otherwise, the stewards will create an executable proposal (or, they may ask you to do this). You  will \n         need to specify the actions your proposal will take while it is in draft stage. You may wish to wait \n         until the proposal is stable before doing this. The executable proposal template explains how to do this.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "9e76af19-b625-4c15-b025-77241cb872e2",
+      "name": "Phase 2: Draft Executable Proposal",
+      "content": "To create a Executable Proposal, [create a new governance proposal](https://github.com/ensdomains/governance-docs/new/main/governance-proposals) \nin the governance-docs repository on GitHub. Start by copying the template for an [executable proposal](executable-proposal-template.md), \n[social proposal](social-proposal-template.md), or [constitutional amendment](constitutional-amendment-template.md), as appropriate. \nOnce you have written your proposal, create a Draft Pull Request for it. Start a new post in the DAO-wide -> Draft Proposals\" \ncategory with a link to the PR for discussion.\n\nYou will need to specify the actions your proposal will take while it is in draft stage. You may wish to wait until \nthe proposal is stable before doing this. The executable proposal template explains how to do this.\n      \nOnce you are confident the proposal is in a stable state, you can proceed to phase 3.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "7a760c0a-e21e-40d8-ab5b-eda5d0d5efa0",
+      "name": "Phase 3: Active Proposal — Snapshot / Governance Portal",
+      "content": "## Proposal Submission for Voting      \nUse GitHub to flag your PR as Ready for Review. A contributor will:\n\n1. Merge your PR if it meets the requirements.\n2. Assign your proposal a proposal number in the form EP###.\n3. Schedule the proposal for a snapshot vote.\n\nIf your proposal is a Social Proposal or a Constitutional Amendment, that's it! If the snapshot vote passes, \nthe proposal is passed.\n            \n## After Approval\nOnce an RFP is approved, the submission period will start. The RFP manager will create a post on the DAO forum \nfor proposals. \n\nAfter the submission period is completed, the manager will select a winning proposal. Normally, the manager will \nbe one of the stewards of the working group who has adopted your RFP.\n\n## Executable Proposal\nIf your proposal is an Executable Proposal, you will now need to submit it to the governor contract for voting onchain.\n\nTo enact an Executable Proposal:\n1. Ensure at least 100k ENS is delegated to your address in order to submit a proposal, or find a delegate who has \n   enough delegated ENS to meet the proposal threshold to propose on your behalf.\n2. Call the propose() function of the ENS governor (at [governor.ensdao.eth](https://etherscan.io/address/0x323a76393544d5ecca80cd6ef2a560c6a395b7e3)) \n   to deploy your proposal.\n\nOnce the propose() function has been called, a seven day voting period is started. Ongoing discussion can take place \non your proposal post. If the proposal passes successfully, a two day timelock will follow before the proposed code \nis executed.\n\n## Begin Work        \nThe person who wrote the proposal, can then start the work. They get paid for meeting RFP milestones and \nprogress specified in their proposal. The RFP manager approves these requests and allocates the funds from \nthe budget.\n",
+      "stepItems": []
+    }
+  ]
+}

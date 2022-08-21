@@ -7,33 +7,61 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 | S.No        | Title       |  Details  |  Link  |
 | ----------- | ----------- |----------- | ----------- |
-| 1      | AAVEnomics | Explains tokenomics of AAVE |  [Link](generated/markdown/aavenomics.md) |
- | 2      | Intro to Lending & Borrowing | Explains background and terminologies of Lending and Borrowing |  [Link](generated/markdown/lending-and-borrowing-basics.md) |
- | 3      | Decentralized Lending | How Lending works in Decentralized Finance |  [Link](generated/markdown/decentralized-lending.md) |
- | 4      | Decentralized Borrowing | How Borrowing works in Decentralized Finance |  [Link](generated/markdown/decentralized-borrowing.md) |
- | 5      | Flash Loans | Explains what are flash loans and how to use them in AAVE |  [Link](generated/markdown/flash-loans.md) |
- | 6      | Intro to AAVE V3 | This guide shares various new features of AAVE V3 |  [Link](generated/markdown/intro-aave-v3.md) |
- | 7      | AAVE Portals | Explains what are portals in AAVE V3 and its benefits |  [Link](generated/markdown/aave-portals.md) |
- | 8      | AAVE Risk Management | Various Risks in DeFi and how manages them |  [Link](generated/markdown/aave-risk-management.md) |
- | 9      | AAVE NPM Packages | Explains the important NPM packages |  [Link](generated/markdown/aave-npm-packages.md) |
- | 10      | AAVE Sandbox | Explains how you can use AAVE Sandbox |  [Link](generated/markdown/aave-sandbox.md) |
+| 1      | ENS DAO Constitution | Set of binding rules that guide ENS DAO actions |  [Link](generated/markdown/ens-dao-constitution.md) |
+ | 2      | ENS Proposal Process | Gives and overview on how a member can submit a proposal |  [Link](generated/markdown/ens-proposal-process.md) |
+ | 3      | ENS DAO Overview | Explains what is ENS DAO and its By laws |  [Link](generated/markdown/ens-dao-intro.md) |
+ | 4      | Intro to ENS | Explains how ENS Domains work |  [Link](generated/markdown/intro-to-ens.md) |
+ | 5      | ENS Workign Groups | Waht are working groups and the responsibilities performed by various working groups |  [Link](generated/markdown/ens-working-groups.md) |
+ | 6      | How to transfer ownership | Explains how to transfer the ownership of your ENS Domain |  [Link](generated/markdown/how-to-transfer-ownership.md) |
+ | 7      | How to Set Avatar | Explains how to set on Avatar for you ENS domain |  [Link](generated/markdown/how-to-set-avatar.md) |
+ | 8      | How to set Text Records | Explains how to set text records for your ENS domain |  [Link](generated/markdown/how-to-set-text-records.md) |
+ | 9      | How to Register | Explains how to register an ENS domain |  [Link](generated/markdown/how-to-register.md) |
 
 ---
 ## Footer
 This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
 
-## Best AAVE Resources
-V3 Videos
-- https://www.youtube.com/watch?v=l5RKksbi8e8
-- https://www.youtube.com/watch?v=JhuD6LnxMLE
+## Best ENS VIDEOS 
 
-V2
-- https://www.youtube.com/watch?v=vgOnZkjifAs
-- https://www.youtube.com/watch?v=AMAMvKc-O2s
-- https://www.youtube.com/watch?v=EzY9zFslRp0
-- https://www.youtube.com/watch?v=9k-D57Mi-Qk
-- Aave: Developer 101 - https://www.youtube.com/watch?v=WPG7T1dFLxQ
+### ENS Sessions
+- Session 1: DNS Integration - https://www.youtube.com/watch?v=wSF_f3cJpy8
+- Session2: Governance - https://www.youtube.com/watch?v=sGej7AbD_EY
+- Session3: Layer 2 - https://www.youtube.com/watch?v=9DdL7AQgXTM
+- Session4: Show & Tell - https://www.youtube.com/watch?v=tZWRO6srhZw
 
-Cetora(Many developer videos) - https://www.youtube.com/channel/UC4DzjIwy_5afMxSI4mOpLHw/videos
-- https://www.youtube.com/watch?v=LzaS8IiqnPY
+
+### ENS Workshops
+- ENS Workshop 1: ENS as NFT v2 (aka Name Wrapper) - https://www.youtube.com/watch?v=MRiBdqE3pDc
+- ENS Workshop 2: ENS name as web3 profile - https://www.youtube.com/watch?v=Eiq1m2iNK6I
+
+
+### References
+https://discuss.ens.domains/t/second-draft-of-the-ens-dao-by-laws-for-comment/11462
+
+### Working Groups
+https://discuss.ens.domains/t/ep12-social-working-group-rules/12953
+
+https://discuss.ens.domains/t/ep14-social-dissolve-community-working-group/12982
+
+https://discuss.ens.domains/t/ens-dao-town-hall/12751/17
+
+https://www.figma.com/file/Acprf74LL8mfRAehfyQZir/ENS---Podarchy-(alisha.eth)?node-id=0%3A1
+
+### Steward
+https://discuss.ens.domains/t/how-it-will-work-steward-nominations/9212
+
+https://discuss.ens.domains/t/steward-election-q3-q4-2022/13185
+
+### ENS Dashboard
+https://datastudio.google.com/u/0/reporting/8785928a-71d5-4b17-9fea-fe1c937b064f/page/RoKgC
+
+ENS Constitution
+https://discuss.ens.domains/t/proposed-ens-constitution/814
+https://ensdao.eth.limo/constitution.pdf  (First Four Pages)
+https://docs.ens.domains/v/governance/ens-dao-constitution
+
+Proposal Process
+https://docs.ens.domains/v/governance/process#the-rfp-process
+
+
  

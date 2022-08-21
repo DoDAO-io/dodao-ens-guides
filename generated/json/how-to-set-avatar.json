@@ -1,0 +1,24 @@
+{
+  "uuid": "d5a6d819-a12a-4bb7-bf02-538b6c317fef",
+  "key": "how-to-set-avatar",
+  "name": "How to Set Avatar",
+  "content": "Explains how to set on Avatar for you ENS domain",
+  "guideType": "onboarding",
+  "created": "2022-08-02T04:15:13.911Z",
+  "categories": [
+    "introduction",
+    "engineering"
+  ],
+  "thumbnail": "ipfs://QmNd8S5Z9T8cWv95UUjn5fYR1wU8nLWjeHzXoRC5oVcVe8",
+  "publishStatus": "Live",
+  "socialShareImage": null,
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "uuid": "6508d027-b19f-49fb-8fbc-47bb2be04a1c",
+      "name": "ENS DAO Overview",
+      "content": "# COMING SOON\n",
+      "stepItems": []
+    }
+  ]
+}

@@ -5,10 +5,10 @@
 # - Second Term Steward Nominations: how it will work - https://discuss.ens.domains/t/second-term-steward-nominations-how-it-will-work/13108
 # - Steward Election Q3/Q4 2022 - https://discuss.ens.domains/t/steward-election-q3-q4-2022/13185
 # https://snapshot.org/#/ens.eth/proposal/0xa64ec8b446e509cb4b75092c4a714897790b70e2711fc3d6afa969c250e7eb92
-uuid: a01aa940-934d-4ca0-9640-212923dc77ce
-key: ens-dao-overview
+uuid: db14003e-daa9-4892-8c3e-d343294f2d78
+key: ens-working-groups
 name: ENS Workign Groups
-content: Explains what is ENS DAO
+content: Waht are working groups and the responsibilities performed by various working groups
 guideType: onboarding
 created: "2022-08-02T04:15:13.911Z"
 categories:
@@ -18,7 +18,7 @@ publishStatus: Live
 socialShareImage:
 showIncorrectOnCompletion: true
 steps:
-  - uuid: be6d0dc0-2bc7-4055-a1d8-940675142173
+  - uuid: 8d6bbbd7-2029-4c10-a2b4-4d011056e66e
     name: Overview
     content: |
       The work-related activities of the ENS DAO takes place within working groups. Each working group has a 
@@ -32,43 +32,75 @@ steps:
   - uuid: asd
     name: Meta-Governance Working Group
     content: |
-      * DAO governance
-      * Treasury management
-      * DAO law and accounting
-  - uuid:
+      Meta Governance working group is responsible for the following things
+      * Governance process and DAO structures - Wokring on things like DAO documentation, as it helps to provide 
+        a roadmap for how the governance processes should work. Another important ingredient is administering experiments 
+        related to onboarding, engaging, and valuing  contributors within the DAO. 
+      
+        It also includes other initiatives like creating a reimbursement program to compesate people for the gas fees spen for
+        on-chain voting, DAO-specific sponsorships or partnerships etc.
+         
+      * DAO Tooling - Includes ENS small grants infrastructure, discourse plug-ins, developing automated DAO processes, 
+        and developing dashboards to improve transparency and visibility on DAO and ENS metrics.
+
+      * Treasury management - includes deciding on any management and diversification strategies of ENS DAO Treasury
+    stepItems: []
+  - uuid: d1599256-602b-419c-baa4-5f6fe9883a04
     name: Ecosystem Working Group
     content: |
+      Ecosystem working goup is reponsible for activities related to the continuing development and improvement of the 
+      ENS protocol and ecosystem, with a focus on all technical matters related to ENS
       * Bug Bounty
       * Integrations
       * Hackathons
       * Discord support
       * Media and Growth
       * Swag store
-  - uuid:
+    stepItems: []
+  - uuid: f38c4047-ed76-4d5e-a432-1586ec7cf182
     name: Public Goods Working Group
-    content: |
-      * PG comms team
-      * Funding ENS related PGs
-      * Funding web3/Ethereum PGs
+    content: |      
+      * **Grants** - Includes funding for any one-off or ongoing projects.
+      
+      * **Rapid Grants** - Rapid Grants includes adopting the Nouns Prop.House model. Grants may also be funded for retro-active 
+        value provided by web3 Public Goods, with Steward approval.
 
-- uuid: asd
+      * **Bounties** - Funding for projects that accomplish certain goals that will be set out in a list of available 
+        bounties. Bounties will relate to initiatives and projects for which there is a need that benefits the broader 
+        web3 community.
+      
+      * **Gitcoin Grants** - Funding in this category relates to matching funds provided for the main Gitcoin Grants 
+        Rounds over the next six months, GR15 and GR16. This amount is not related to the funding for the ENS Ecosystem 
+        Round, which is funded by the Ecosystem Working Group.
+    stepItems: []
+  - uuid: e1bf55f1-1d8c-4130-b91f-a807695693d3
     name: Working Group Stewards
     content: |
       Working Group Stewards
-      Each working group shall be managed by five stewards (hereafter a ‘Steward’ or ‘Stewards’).
-      Stewards will be elected, unless otherwise stated in these rules, to serve within working groups for a set period of time (hereafter known as a ‘Term’ or ‘Terms’).
+      
+      Stewards will be elected, unless otherwise stated in these rules, to serve within working groups for a set period 
+      of time (hereafter known as a ‘Term’ or ‘Terms’).
+      
       There are two Terms each calendar year:
-      The first Term commences at 9am UTC on January 1 each year and ends immediately prior to the commencement of the second Term (‘First Term’); and
-      The second Term commences at 9am UTC on July 1 each year and ends immediately prior to the commencement of the First Term of the following year (‘Second Term’).
+      * The first Term commences at 9am UTC on January 1 each year and ends immediately prior to the commencement of the 
+        second Term (‘First Term’); and
+      * The second Term commences at 9am UTC on July 1 each year and ends immediately prior to the commencement of the 
+        First Term of the following year (‘Second Term’).
+      
       Stewards are responsible for managing the operations of each working group.
-      The responsibilities of Stewards include, but are not limited to:
-      Managing operational tasks related to the administration of a working group;
-      Maintaining a description that sets forth the focus and intent of the working group;
-      Developing working group goals for the Term and providing a clear road map for achieving those goals, to be published in the ENS governance forum within the first 30 days of a Term;
-      Approving the creation and dissolution of sub-groups or workstreams within a working group to undertake work and/or carry out specific projects or tasks;
-      Requesting working group funds from the DAO; and
-      Approving and making funding available to sub-groups, workstreams, or contributors within a working group.
-      To request working group funds, Stewards of all working groups will collaborate to submit an active executable proposal, as defined by the ENS governance documentation 40 (‘Collective Proposal’), to the DAO within the final 15 days (inclusive) of the months of January, March, July, and October each calendar year (each a ‘Funding Window’).
-      In order for a working group to have a funding request included in a Collective Proposal submitted to the DAO during a Funding Window, the funding request must have passed as a Social Proposal in the same Funding Window.
-      In the case of an emergency, where working group funds are needed by a working group outside of a Funding Window, an Executable Proposal may be submitted at any time by a Steward of a working group to request funds from the DAO.
-
+      
+      Stewards are responsible for the management and administration of a working group. This includes creating a description 
+      of the group's focus and purpose, as well as developing goals for the term and providing a road map for achieving 
+      those goals. Stewards also have the authority to approve the creation or dissolution of sub-groups or workstreams 
+      within a working group.
+      
+      Not only do they have to request funding from the DAO, but they also have to approve and make funding available to 
+      sub-groups, workstreams, or contributors within the working group. In order to request working group funds, Stewards 
+      of all working groups will need to submit an active executable proposal, as defined by the ENS governance documentation 
+      40 ('Collective Proposal'), to the DAO within the final 15 days of each calendar year (each a 'Funding Window').
+      
+      For a working group to have its funding request included in a proposal submitted to the DAO during a Funding 
+      Window, the request must first pass as a Social Proposal during that same Funding Window. In an emergency situation 
+      where working group funds are needed by a group outside of a Funding Window, an Executable Proposal may be submitted 
+      at any time by a Steward of the working group to request funds from the DAO.
+    stepItems: []

@@ -1,0 +1,47 @@
+{
+  "uuid": "db14003e-daa9-4892-8c3e-d343294f2d78",
+  "key": "ens-working-groups",
+  "name": "ENS Workign Groups",
+  "content": "Waht are working groups and the responsibilities performed by various working groups",
+  "guideType": "onboarding",
+  "created": "2022-08-02T04:15:13.911Z",
+  "categories": [
+    "introduction"
+  ],
+  "thumbnail": "ipfs://QmNd8S5Z9T8cWv95UUjn5fYR1wU8nLWjeHzXoRC5oVcVe8",
+  "publishStatus": "Live",
+  "socialShareImage": null,
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "uuid": "8d6bbbd7-2029-4c10-a2b4-4d011056e66e",
+      "name": "Overview",
+      "content": "The work-related activities of the ENS DAO takes place within working groups. Each working group has a \nspecific focus area and mission, aligned with the constitution and needs of the DAO.\n\nThere are currently three foundational working groups:\n**Meta-Governance** : providing governance oversight and support of the management and operation of the ENS DAO and working groups;\n**ENS Ecosystem**: continuing development and improvement of the ENS protocol and ecosystem, with a focus on all technical matters related to ENS;\n**Public Goods**: amplifying ENS as a public good and funding public goods within the ENS ecosystem, and more broadly within web3.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "asd",
+      "name": "Meta-Governance Working Group",
+      "content": "Meta Governance working group is responsible for the following things\n* Governance process and DAO structures - Wokring on things like DAO documentation, as it helps to provide \n  a roadmap for how the governance processes should work. Another important ingredient is administering experiments \n  related to onboarding, engaging, and valuing  contributors within the DAO. \n\n  It also includes other initiatives like creating a reimbursement program to compesate people for the gas fees spen for\n  on-chain voting, DAO-specific sponsorships or partnerships etc.\n   \n* DAO Tooling - Includes ENS small grants infrastructure, discourse plug-ins, developing automated DAO processes, \n  and developing dashboards to improve transparency and visibility on DAO and ENS metrics.\n\n* Treasury management - includes deciding on any management and diversification strategies of ENS DAO Treasury\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "d1599256-602b-419c-baa4-5f6fe9883a04",
+      "name": "Ecosystem Working Group",
+      "content": "Ecosystem working goup is reponsible for activities related to the continuing development and improvement of the \nENS protocol and ecosystem, with a focus on all technical matters related to ENS\n* Bug Bounty\n* Integrations\n* Hackathons\n* Discord support\n* Media and Growth\n* Swag store\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "f38c4047-ed76-4d5e-a432-1586ec7cf182",
+      "name": "Public Goods Working Group",
+      "content": "* **Grants** - Includes funding for any one-off or ongoing projects.\n\n* **Rapid Grants** - Rapid Grants includes adopting the Nouns Prop.House model. Grants may also be funded for retro-active \n  value provided by web3 Public Goods, with Steward approval.\n\n* **Bounties** - Funding for projects that accomplish certain goals that will be set out in a list of available \n  bounties. Bounties will relate to initiatives and projects for which there is a need that benefits the broader \n  web3 community.\n\n* **Gitcoin Grants** - Funding in this category relates to matching funds provided for the main Gitcoin Grants \n  Rounds over the next six months, GR15 and GR16. This amount is not related to the funding for the ENS Ecosystem \n  Round, which is funded by the Ecosystem Working Group.\n",
+      "stepItems": []
+    },
+    {
+      "uuid": "e1bf55f1-1d8c-4130-b91f-a807695693d3",
+      "name": "Working Group Stewards",
+      "content": "Working Group Stewards\n\nStewards will be elected, unless otherwise stated in these rules, to serve within working groups for a set period \nof time (hereafter known as a ‘Term’ or ‘Terms’).\n\nThere are two Terms each calendar year:\n* The first Term commences at 9am UTC on January 1 each year and ends immediately prior to the commencement of the \n  second Term (‘First Term’); and\n* The second Term commences at 9am UTC on July 1 each year and ends immediately prior to the commencement of the \n  First Term of the following year (‘Second Term’).\n\nStewards are responsible for managing the operations of each working group.\n\nStewards are responsible for the management and administration of a working group. This includes creating a description \nof the group's focus and purpose, as well as developing goals for the term and providing a road map for achieving \nthose goals. Stewards also have the authority to approve the creation or dissolution of sub-groups or workstreams \nwithin a working group.\n\nNot only do they have to request funding from the DAO, but they also have to approve and make funding available to \nsub-groups, workstreams, or contributors within the working group. In order to request working group funds, Stewards \nof all working groups will need to submit an active executable proposal, as defined by the ENS governance documentation \n40 ('Collective Proposal'), to the DAO within the final 15 days of each calendar year (each a 'Funding Window').\n\nFor a working group to have its funding request included in a proposal submitted to the DAO during a Funding \nWindow, the request must first pass as a Social Proposal during that same Funding Window. In an emergency situation \nwhere working group funds are needed by a group outside of a Funding Window, an Executable Proposal may be submitted \nat any time by a Steward of the working group to request funds from the DAO.\n",
+      "stepItems": []
+    }
+  ]
+}

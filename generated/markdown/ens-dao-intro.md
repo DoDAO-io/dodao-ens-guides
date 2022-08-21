@@ -1,3 +1,20 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+---
+
+## ENS DAO Overview
+
+
+## ENS DAO Overview
+
+# COMING SOON
+
+
+    
+
+
+---
 ## Footer
 This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
 
@@ -44,3 +61,4 @@ Proposal Process
 https://docs.ens.domains/v/governance/process#the-rfp-process
 
 
+    

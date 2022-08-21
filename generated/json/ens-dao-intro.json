@@ -1,0 +1,23 @@
+{
+  "uuid": "61f10d47-6cb4-4be3-af8c-f683c89aeed8",
+  "key": "ens-dao-intro",
+  "name": "ENS DAO Overview",
+  "content": "Explains what is ENS DAO and its By laws",
+  "guideType": "onboarding",
+  "created": "2022-08-02T04:15:13.911Z",
+  "categories": [
+    "introduction"
+  ],
+  "thumbnail": "ipfs://QmNd8S5Z9T8cWv95UUjn5fYR1wU8nLWjeHzXoRC5oVcVe8",
+  "publishStatus": "Live",
+  "socialShareImage": null,
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "uuid": "bf952f1e-d3c9-45b8-a211-e88a2928fdf9",
+      "name": "ENS DAO Overview",
+      "content": "# COMING SOON\n",
+      "stepItems": []
+    }
+  ]
+}

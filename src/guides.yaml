@@ -1,10 +1,9 @@
 guides:
   - ens-dao-constitution.yaml
   - ens-proposal-process.yaml
-  - ens-dao-overview.yaml
+  - ens-dao-intro.yaml
   - intro-to-ens.yaml
   - ens-working-groups.yaml
-  - ens-delegation-process.yaml
   - how-to-transfer-ownership.yaml
   - how-to-set-avatar.yaml
   - how-to-set-text-records.yaml

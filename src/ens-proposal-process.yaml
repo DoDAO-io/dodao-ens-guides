@@ -1,5 +1,5 @@
 uuid: 09cc501f-3f9d-4665-9d58-f1e9341ef7bb
-key: ens-rfp-process
+key: ens-proposal-process
 name: ENS Proposal Process
 content: Gives and overview on how a member can submit a proposal
 guideType: onboarding
@@ -25,6 +25,7 @@ steps:
       RFPs can be short or long, depending on the project. An RFP for improving the DAO's documentation may only be a 
       paragraph or two long, and proposals for it will be equally short. However, an RFP for managing the DAO's funds 
       may be lengthy, and a successful proposal could be multiple pages justifying the proposer's ability to take on the job.
+    stepItems: []
   - uuid: 33c45d1b-6715-4d1e-805a-a444396f7673
     name: Proposal Process Overview
     content: |
@@ -35,6 +36,7 @@ steps:
          subcategory. A proposal template will be populated; fill it out, submit it, and solicit feedback on it.
 
       3) Active Proposal. Ask a moderator to move your mature draft to the Active Proposals category and start a vote.
+    stepItems: []
 
   - uuid: 43fd515e-3585-402a-889b-17cfe635d21b
     name: "Phase 1: Temperature Check — Discourse"
@@ -47,6 +49,7 @@ steps:
       
       Temperature checks are informal and optional; it's up to you to use the feedback to decide if you want to proceed 
       further with your proposal.
+    stepItems: []
   - uuid: 38650c76-cd01-41cb-90d2-f140bd80566a
     name: "Phase 2: Draft proposal"
     content: |
@@ -114,3 +117,4 @@ steps:
       The person who wrote the proposal, can then start the work. They get paid for meeting RFP milestones and 
       progress specified in their proposal. The RFP manager approves these requests and allocates the funds from 
       the budget.
+    stepItems: []

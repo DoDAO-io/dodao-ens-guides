@@ -1,5 +1,5 @@
 uuid: e7fd548a-27bf-4c65-8b80-36a42af30e6a
-key: ens-constitution
+key: ens-dao-constitution
 name: ENS DAO Constitution
 content: Set of binding rules that guide ENS DAO actions
 guideType: onboarding
@@ -50,6 +50,7 @@ steps:
       #### Not Permissible
       ENS governance must not enact a change increasing or reducing the extension costs of a list of existing ENS names,
       as this would unfairly benefit or penalise a handpicked group
+    stepItems: []
   - uuid: ecfef4da-e01e-4352-a9a1-62492ff9f7d9
     name: Fees are primarily an incentive mechanism
     content: |
@@ -66,6 +67,7 @@ steps:
       #### Not Permissible
       ENS governance must not enact a change imposing a fee for claiming DNS domains inside ENS, because such a fee would 
       be purely an income generating measure and not an incentive mechanism.
+    stepItems: []
   - uuid: 08386266-78eb-4272-80ad-3c7c458d1651
     name: Income funds ENS and other public goods
     content: |
@@ -83,6 +85,7 @@ steps:
       
       #### Not Permissible
       ENS governance must not use the funds to support projects that conflict with the goals of ENS.
+    stepItems: []
   - uuid: ee595ceb-08d6-4c0f-a49e-0210952701b3
     name: ENS Integrates with the global namespace
     content: |
@@ -97,10 +100,12 @@ steps:
       #### Not Permissible
       ENS governance must not create new top-level domains unless those domains have been granted to ENS by a DNS 
       authority
+    stepItems: []
   - uuid: bfda4cc0-fc6d-432f-b5b7-d043c04aa508
     name: Amendments to this constitution by majority vote
     content: |
       Any change may be made to this constitution only by two-thirds majority and at least 1% of all tokens participating
+    stepItems: []
       
       
       
