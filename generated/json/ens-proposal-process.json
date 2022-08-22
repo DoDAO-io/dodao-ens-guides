@@ -21,10 +21,104 @@
       "stepItems": []
     },
     {
+      "uuid": "7696ccbf-4cf4-4a7a-be5c-5377d0e98b30",
+      "name": "Evaluation",
+      "content": "",
+      "stepItems": [
+        {
+          "uuid": "393576db-1fd6-4c7f-b4bc-a28b1c499792",
+          "content": "What is the full form of RFP?",
+          "answerKeys": [
+            "B"
+          ],
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "Requests for Payment",
+              "key": "A"
+            },
+            {
+              "content": "Requests for Proposal",
+              "key": "B"
+            },
+            {
+              "content": "Requests for Participation",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "06966a1a-931f-4243-93ff-3107c23ac5a7",
+          "content": "What is the optimal word length of an RFP?",
+          "answerKeys": [
+            "D"
+          ],
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "One page long",
+              "key": "A"
+            },
+            {
+              "content": "Al-least two pages",
+              "key": "B"
+            },
+            {
+              "content": "Not more than 500 words",
+              "key": "C"
+            },
+            {
+              "content": "Anything word length that can justify proposer's ability to take on the job",
+              "key": "D"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "uuid": "33c45d1b-6715-4d1e-805a-a444396f7673",
       "name": "Proposal Process Overview",
-      "content": "Proposals follow three basic steps:\n1) Temperature check. Post to the worksteam’s Temp Check category to get feedback on your idea before creating a \n   formal proposal.\n2) Draft proposal. Create a draft proposal by creating a new post and selecting the appropriate “Draft Proposals” \n   subcategory. A proposal template will be populated; fill it out, submit it, and solicit feedback on it.\n\n3) Active Proposal. Ask a moderator to move your mature draft to the Active Proposals category and start a vote.\n",
+      "content": "Proposals follow three basic steps:\n1) **Temperature check** - Post to the worksteam’s Temp Check category to get feedback on your idea before creating a \n   formal proposal.\n2) **Draft proposal** - Create a draft proposal by creating a new post and selecting the appropriate “Draft Proposals” \n   subcategory. A proposal template will be populated; fill it out, submit it, and solicit feedback on it.\n\n3) **Active Proposal** -  Ask a moderator to move your mature draft to the Active Proposals category and start a vote.\n",
       "stepItems": []
+    },
+    {
+      "uuid": "01899cd3-c9d5-4bfe-b5d0-f8ba2f820132",
+      "name": "Evaluation",
+      "content": "",
+      "stepItems": [
+        {
+          "uuid": "9a99fc94-a42f-41c8-b615-455757cbc81e",
+          "content": "Select the three basic steps of Proposals",
+          "answerKeys": [
+            "B",
+            "C",
+            "D"
+          ],
+          "type": "MultipleChoice",
+          "choices": [
+            {
+              "content": "Proposal Marketing",
+              "key": "A"
+            },
+            {
+              "content": "Draft proposal",
+              "key": "B"
+            },
+            {
+              "content": "Temperature check",
+              "key": "C"
+            },
+            {
+              "content": "Active Proposal",
+              "key": "D"
+            }
+          ]
+        }
+      ]
     },
     {
       "uuid": "43fd515e-3585-402a-889b-17cfe635d21b",
@@ -39,10 +133,103 @@
       "stepItems": []
     },
     {
+      "uuid": "192acbc5-901b-4bf8-911f-0733182fe931",
+      "name": "Evaluation",
+      "content": "",
+      "stepItems": [
+        {
+          "uuid": "7a7cd103-72a5-40ee-a0c5-b40e2e6d1151",
+          "content": "What is the URL of the ENS community forum?",
+          "answerKeys": [
+            "A"
+          ],
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "https://discuss.ens.domains",
+              "key": "A"
+            },
+            {
+              "content": "https://talk.ens.domains",
+              "key": "B"
+            },
+            {
+              "content": "https://gov.ens.domains",
+              "key": "C"
+            },
+            {
+              "content": "https://forum.ens.domains",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "893b913c-ab28-478f-863a-8307c061b5b8",
+          "content": "Select the correct option",
+          "answerKeys": [
+            "C"
+          ],
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "Porposals can be paid out of WG funds",
+              "key": "A"
+            },
+            {
+              "content": "Porposals can be paid out of DAO funds",
+              "key": "B"
+            },
+            {
+              "content": "Both A and B",
+              "key": "C"
+            },
+            {
+              "content": "Proposals can be only paid out after on-chain voting",
+              "key": "D"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "uuid": "9e76af19-b625-4c15-b025-77241cb872e2",
       "name": "Phase 2: Draft Executable Proposal",
       "content": "To create a Executable Proposal, [create a new governance proposal](https://github.com/ensdomains/governance-docs/new/main/governance-proposals) \nin the governance-docs repository on GitHub. Start by copying the template for an [executable proposal](executable-proposal-template.md), \n[social proposal](social-proposal-template.md), or [constitutional amendment](constitutional-amendment-template.md), as appropriate. \nOnce you have written your proposal, create a Draft Pull Request for it. Start a new post in the DAO-wide -> Draft Proposals\" \ncategory with a link to the PR for discussion.\n\nYou will need to specify the actions your proposal will take while it is in draft stage. You may wish to wait until \nthe proposal is stable before doing this. The executable proposal template explains how to do this.\n      \nOnce you are confident the proposal is in a stable state, you can proceed to phase 3.\n",
       "stepItems": []
+    },
+    {
+      "uuid": "9cd6fff9-87d0-4e69-8cfd-c87fb9774441",
+      "name": "Evaluation",
+      "content": "",
+      "stepItems": [
+        {
+          "uuid": "b545cc6b-09aa-45b8-88e3-f69d40e098d0",
+          "content": "Select the correct statements for Executable Proposals",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "type": "MultipleChoice",
+          "choices": [
+            {
+              "content": "Executable proposals are allways passed via on-chain voting",
+              "key": "A"
+            },
+            {
+              "content": "Executable proposals can be passed by Working Gorup Stewards",
+              "key": "B"
+            },
+            {
+              "content": "You will need to specify the actions your proposal will take while it is in draft stage",
+              "key": "C"
+            },
+            {
+              "content": "Executable proposals are only needed for changes related to registration fee and duration",
+              "key": "D"
+            }
+          ]
+        }
+      ]
     },
     {
       "uuid": "7a760c0a-e21e-40d8-ab5b-eda5d0d5efa0",

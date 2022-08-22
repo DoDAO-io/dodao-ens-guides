@@ -24,16 +24,61 @@ may be lengthy, and a successful proposal could be multiple pages justifying the
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What is the full form of RFP?  
+
+- [ ]  Requests for Payment
+- [x]  Requests for Proposal
+- [ ]  Requests for Participation
+- [ ]  None of the above
+
+
+
+
+
+##### What is the optimal word length of an RFP?  
+
+- [ ]  One page long
+- [ ]  Al-least two pages
+- [ ]  Not more than 500 words
+- [x]  Anything word length that can justify proposer's ability to take on the job
+
+    
+
+
+---
 ## Proposal Process Overview
 
 Proposals follow three basic steps:
-1) Temperature check. Post to the worksteam’s Temp Check category to get feedback on your idea before creating a 
+1) **Temperature check** - Post to the worksteam’s Temp Check category to get feedback on your idea before creating a 
    formal proposal.
-2) Draft proposal. Create a draft proposal by creating a new post and selecting the appropriate “Draft Proposals” 
+2) **Draft proposal** - Create a draft proposal by creating a new post and selecting the appropriate “Draft Proposals” 
    subcategory. A proposal template will be populated; fill it out, submit it, and solicit feedback on it.
 
-3) Active Proposal. Ask a moderator to move your mature draft to the Active Proposals category and start a vote.
+3) **Active Proposal** -  Ask a moderator to move your mature draft to the Active Proposals category and start a vote.
 
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### Select the three basic steps of Proposals  
+
+- [ ]  Proposal Marketing
+- [x]  Draft proposal
+- [x]  Temperature check
+- [x]  Active Proposal
 
     
 
@@ -75,6 +120,34 @@ further with your proposal.
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What is the URL of the ENS community forum?  
+
+- [x]  https://discuss.ens.domains
+- [ ]  https://talk.ens.domains
+- [ ]  https://gov.ens.domains
+- [ ]  https://forum.ens.domains
+
+
+
+
+
+##### Select the correct option  
+
+- [ ]  Porposals can be paid out of WG funds
+- [ ]  Porposals can be paid out of DAO funds
+- [x]  Both A and B
+- [ ]  Proposals can be only paid out after on-chain voting
+
+    
+
+
+---
 ## Phase 2: Draft Executable Proposal
 
 To create a Executable Proposal, [create a new governance proposal](https://github.com/ensdomains/governance-docs/new/main/governance-proposals) 
@@ -88,6 +161,23 @@ the proposal is stable before doing this. The executable proposal template expla
       
 Once you are confident the proposal is in a stable state, you can proceed to phase 3.
 
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### Select the correct statements for Executable Proposals  
+
+- [ ]  Executable proposals are allways passed via on-chain voting
+- [x]  Executable proposals can be passed by Working Gorup Stewards
+- [x]  You will need to specify the actions your proposal will take while it is in draft stage
+- [ ]  Executable proposals are only needed for changes related to registration fee and duration
 
     
 
