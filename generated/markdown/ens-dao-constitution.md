@@ -34,12 +34,40 @@ Here is the link to the proposal - [https://discuss.ens.domains/t/proposed-ens-c
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### What does the ENS constitution help with?  
+
+- [ ]  Find names of team members currently actively working with ENS
+- [ ]  Tells how exactly the profits need to be distributed
+- [x]  Determine what governance actions are legitimate for the DAO to take
+- [ ]  None of these
+
+
+
+
+
+##### How many members have singed the ENS Constitution?  
+
+- [ ]  Less than 580
+- [ ]  Less than 2000
+- [ ]  More than 60,000
+- [x]  More than 80,000
+
+    
+
+
+---
 ## Name ownership shall not be infringed
 
 ENS governance will not enact any change that infringes on the rights of ENS users to retain names they own,
 or unfairly discriminate against name owners’ ability to extend, transfer, or otherwise use their names.
 
-## EXAMPLES
+### EXAMPLES
 #### Permissible      
 ENS governance may enact a change affecting the registration or extension costs of all names based on transparent 
 criteria such as length, as long as it pursues a goal outlined in this constitution.      
@@ -53,13 +81,41 @@ as this would unfairly benefit or penalise a handpicked group
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### Which of these is true about the registration cost for ENS domains  
+
+- [ ]  It will increase every year by 2%
+- [ ]  It will always remain fixed as the current cost
+- [ ]  It will reduce with every passing year
+- [x]  ENS governance may enact a change of registration cost of all names based on transparent criteria
+
+
+
+
+
+##### How can ENS governance enact on the list of existing ENS names  
+
+- [ ]  Reduce the extension cost every year for them as they were the early adopters
+- [ ]  Increase the extension cost every year as they paid very less initially
+- [x]  Must not enact a change increasing or reducing the extension costs of a list of existing ENS names
+- [ ]  None of these
+
+    
+
+
+---
 ## Fees are primarily an incentive mechanism
 
 The primary purpose of registration fees is as an incentive mechanism to prevent the namespace becoming overwhelmed 
 with speculatively registered names. A secondary purpose is to provide enough revenue to the DAO to fund ongoing 
 development and improvement of ENS. ENS governance will not enact any fee other than for these purposes.
 
-## EXAMPLES
+### EXAMPLES
 #### Permissible      
 ENS governance may increase the price of name registrations in order to address excessive speculative registrations 
 induced by a price that is set too low, or because the current price is insufficient to fund ongoing ENS operations 
@@ -74,6 +130,23 @@ be purely an income generating measure and not an incentive mechanism.
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### Select the primary purposes for collectinng of registration fees from users  
+
+- [x]  Increase the profit by 5% every year
+- [ ]  To provide enough revenue to the DAO to fund ongoing development and improvement of ENS
+- [ ]  Compensate the investors
+- [x]  To prevent the namespace becoming overwhelmed with speculatively registered names
+
+    
+
+
+---
 ## Income funds ENS and other public goods
 
 Any income generated to the ENS treasury is to be used first of all to ensure the long-term viability of ENS, and 
@@ -83,7 +156,7 @@ this goal may be used to fund other public goods within web3 as ENS governance s
 ENS governance will not allocate funds to a team or individual who does not commit to uphold the same principles 
 outlined in this constitution in their use of the allocated funds.
 
-## EXAMPLES
+### EXAMPLES
 #### Permissible      
 ENS governance may offer grant funding for a public good unrelated to ENS or Ethereum, so long as doing so does 
 not affect the long-term viability of ENS.    
@@ -96,13 +169,40 @@ ENS governance must not use the funds to support projects that conflict with the
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### How does ENS plan to use the income generated?  
+
+- [x]  Ensure the long-term viability of ENS
+- [x]  Fund other public goods within web3 as ENS governance sees fit
+- [ ]  Eliminate any competetion
+- [x]  Fund continuing development and improvement of the ENS system
+
+
+
+
+
+##### ENS income should not be used for which of these?  
+
+- [ ]  Public goods within web3 as ENS governance sees fit
+- [ ]  Grant funding for a public good unrelated to ENS or Ethereum
+- [x]  Support projects that conflict with the goals of ENS
+
+    
+
+
+---
 ## ENS Integrates with the global namespace
 
 In order to facilitate making the most widely usable naming system, ENS aims to integrate with the legacy DNS 
 naming system to the greatest extent possible without sacrificing decentralization of ENS. ENS governance will not 
 enact changes that compromise ENS’s ability to do this.
 
-## EXAMPLES
+### EXAMPLES
 #### Permissible      
 ENS governance should grant control of a top-level domain to its owner in the DNS system on request.    
 
@@ -119,6 +219,33 @@ authority
 
 Any change may be made to this constitution only by two-thirds majority and at least 1% of all tokens participating
 
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### Under what conditions can an ammendment be made to ENS constitution?  
+
+- [ ]  If everyone who signed the constitution approves of the change
+- [ ]  No ammendments can be made to ENS Constitution
+- [x]  Only if a proposal is passed by two-thirds majority and at least 1% of all tokens participating
+- [ ]  If more than half of the domain holdes approve of the ammendment
+
+
+
+
+
+##### Which of these is true regarding top-level domains in ENS?  
+
+- [ ]  ENS governance must not create new top-level domains unless those domains have been granted to ENS by a DNS  authority
+- [ ]  ENS governance must add a new top-level domain every year even if they have not been granted to ENS by a DNS  authority
+- [x]  There can be no changes to top-level domains. The list is fixed
 
     
 

@@ -12,7 +12,7 @@ publishStatus: Live
 socialShareImage:
 showIncorrectOnCompletion: true
 steps:
-  - uuid: 5732e8b9-3df4-447b-9bed-bb086e1637d1
+  - uuid: db25abe9-98a2-45ee-ad4d-540e541495dc
     name: Overview
     content: |
       ### About ENS Constitution
@@ -36,13 +36,45 @@ steps:
       
       Here is the link to the proposal - [https://discuss.ens.domains/t/proposed-ens-constitution/814](https://discuss.ens.domains/t/proposed-ens-constitution/814)
     stepItems: []
+  - uuid: ce99148e-f4aa-4c65-8423-868e3bf573e1
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: 8b572643-8edc-4c08-8b4a-7f34844c1197
+        content: What does the ENS constitution help with?
+        answerKeys:
+          - C
+        type: SingleChoice
+        choices:
+          - content: Find names of team members currently actively working with ENS
+            key: A
+          - content: Tells how exactly the profits need to be distributed
+            key: B
+          - content: Determine what governance actions are legitimate for the DAO to take
+            key: C
+          - content: None of these
+            key: D
+      - uuid: 6d27d2ef-c94c-409c-b94f-8e978f4ba95f
+        content: How many members have singed the ENS Constitution?
+        answerKeys:
+          - D
+        type: SingleChoice
+        choices:
+          - content: Less than 580
+            key: A
+          - content: Less than 2000
+            key: B
+          - content: More than 60,000
+            key: C
+          - content: More than 80,000
+            key: D
   - uuid: 7839e688-abe0-4c5d-96fd-9bc512e80ad2
     name: Name ownership shall not be infringed
     content: |
       ENS governance will not enact any change that infringes on the rights of ENS users to retain names they own,
       or unfairly discriminate against name owners’ ability to extend, transfer, or otherwise use their names.
 
-      ## EXAMPLES
+      ### EXAMPLES
       #### Permissible      
       ENS governance may enact a change affecting the registration or extension costs of all names based on transparent 
       criteria such as length, as long as it pursues a goal outlined in this constitution.      
@@ -51,6 +83,38 @@ steps:
       ENS governance must not enact a change increasing or reducing the extension costs of a list of existing ENS names,
       as this would unfairly benefit or penalise a handpicked group
     stepItems: []
+  - uuid: c5267e8b-5696-4dc9-8f17-3537e87e66e0
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: ae416a5e-23ec-4454-b18e-0bfe1e5a1994
+        content: Which of these is true about the registration cost for ENS domains
+        answerKeys:
+          - D
+        type: SingleChoice
+        choices:
+          - content: It will increase every year by 2%
+            key: A
+          - content: It will always remain fixed as the current cost
+            key: B
+          - content: It will reduce with every passing year
+            key: C
+          - content: ENS governance may enact a change of registration cost of all names based on transparent criteria
+            key: D
+      - uuid: 1ce51fba-fc33-4de6-b90c-90ca2d88dc22
+        content: How can ENS governance enact on the list of existing ENS names
+        answerKeys:
+          - C
+        type: SingleChoice
+        choices:
+          - content: Reduce the extension cost every year for them as they were the early adopters
+            key: A
+          - content: Increase the extension cost every year as they paid very less initially
+            key: B
+          - content: Must not enact a change increasing or reducing the extension costs of a list of existing ENS names
+            key: C
+          - content: None of these
+            key: D
   - uuid: ecfef4da-e01e-4352-a9a1-62492ff9f7d9
     name: Fees are primarily an incentive mechanism
     content: |
@@ -58,7 +122,7 @@ steps:
       with speculatively registered names. A secondary purpose is to provide enough revenue to the DAO to fund ongoing 
       development and improvement of ENS. ENS governance will not enact any fee other than for these purposes.
 
-      ## EXAMPLES
+      ### EXAMPLES
       #### Permissible      
       ENS governance may increase the price of name registrations in order to address excessive speculative registrations 
       induced by a price that is set too low, or because the current price is insufficient to fund ongoing ENS operations 
@@ -68,6 +132,25 @@ steps:
       ENS governance must not enact a change imposing a fee for claiming DNS domains inside ENS, because such a fee would 
       be purely an income generating measure and not an incentive mechanism.
     stepItems: []
+  - uuid: 62b871f0-b134-4f04-9cc1-8130c4d3700a
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: 5ef2447a-6fed-43bf-a76c-b508739c5964
+        content: Select the primary purposes for collectinng of registration fees from users
+        answerKeys:
+          - A
+          - D
+        type: MultipleChoice
+        choices:
+          - content: Increase the profit by 5% every year
+            key: A
+          - content: To provide enough revenue to the DAO to fund ongoing development and improvement of ENS
+            key: B
+          - content: Compensate the investors
+            key: C
+          - content: To prevent the namespace becoming overwhelmed with speculatively registered names
+            key: D
   - uuid: 08386266-78eb-4272-80ad-3c7c458d1651
     name: Income funds ENS and other public goods
     content: |
@@ -78,7 +161,7 @@ steps:
       ENS governance will not allocate funds to a team or individual who does not commit to uphold the same principles 
       outlined in this constitution in their use of the allocated funds.
       
-      ## EXAMPLES
+      ### EXAMPLES
       #### Permissible      
       ENS governance may offer grant funding for a public good unrelated to ENS or Ethereum, so long as doing so does 
       not affect the long-term viability of ENS.    
@@ -86,6 +169,39 @@ steps:
       #### Not Permissible
       ENS governance must not use the funds to support projects that conflict with the goals of ENS.
     stepItems: []
+  - uuid: 1f58006a-6fa7-43e7-a42a-815366cb08b3
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: 192ed5e0-e625-4c44-b78c-bc6c027f94a3
+        content: How does ENS plan to use the income generated?
+        answerKeys:
+          - A
+          - B
+          - D
+        type: MultipleChoice
+        choices:
+          - content: Ensure the long-term viability of ENS
+            key: A
+          - content: Fund other public goods within web3 as ENS governance sees fit
+            key: B
+          - content: Eliminate any competetion
+            key: C
+          - content: Fund continuing development and improvement of the ENS system
+            key: D
+      - uuid: b5d7e72b-5c1f-48cf-b0ae-44a334e2591c
+        content: ENS income should not be used for which of these?
+        answerKeys:
+          - D
+        type: SingleChoice
+        choices:
+          - content: Public goods within web3 as ENS governance sees fit
+            key: B
+          - content: Grant funding for a public good unrelated to ENS or Ethereum
+            key: C
+          - content: Support projects that conflict with the goals of ENS
+            key: D
+
   - uuid: ee595ceb-08d6-4c0f-a49e-0210952701b3
     name: ENS Integrates with the global namespace
     content: |
@@ -93,7 +209,7 @@ steps:
       naming system to the greatest extent possible without sacrificing decentralization of ENS. ENS governance will not 
       enact changes that compromise ENS’s ability to do this.
       
-      ## EXAMPLES
+      ### EXAMPLES
       #### Permissible      
       ENS governance should grant control of a top-level domain to its owner in the DNS system on request.    
       
@@ -106,6 +222,38 @@ steps:
     content: |
       Any change may be made to this constitution only by two-thirds majority and at least 1% of all tokens participating
     stepItems: []
+  - uuid: 1aa0b789-2b9f-4c61-9892-cc168dd159cc
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: e87a3881-ed22-4e87-9abf-e364cdfb2fe7
+        content: Under what conditions can an ammendment be made to ENS constitution?
+        answerKeys:
+          - C
+        type: SingleChoice
+        choices:
+          - content: If everyone who signed the constitution approves of the change
+            key: A
+          - content: No ammendments can be made to ENS Constitution
+            key: B
+          - content: Only if a proposal is passed by two-thirds majority and at least 1% of all tokens participating
+            key: C
+          - content: If more than half of the domain holdes approve of the ammendment
+            key: D
+      - uuid: a48bb251-2d07-44ef-b818-b9b4edfd079d
+        content: Which of these is true regarding top-level domains in ENS?
+        answerKeys:
+          - C
+        type: SingleChoice
+        choices:
+          - content: ENS governance must not create new top-level domains unless those domains have been granted to ENS by a DNS  authority
+            key: A
+          - content: ENS governance must add a new top-level domain every year even if they have not been granted to ENS by a DNS  authority
+            key: B
+          - content: There can be no changes to top-level domains. The list is fixed
+            key: C
+
+
       
       
       
