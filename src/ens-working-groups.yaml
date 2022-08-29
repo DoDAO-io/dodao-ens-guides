@@ -29,13 +29,47 @@ steps:
       **ENS Ecosystem**: continuing development and improvement of the ENS protocol and ecosystem, with a focus on all technical matters related to ENS;
       **Public Goods**: amplifying ENS as a public good and funding public goods within the ENS ecosystem, and more broadly within web3.
     stepItems: []
-  - uuid: asd
+  - uuid: 2bd55ab4-ce5d-42f6-95e0-39c4c153ee47
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: eb7b0356-db1a-4419-922d-e3e74aff7f28
+        content: Select the current working groups of ENS DAO
+        answerKeys:
+          - A
+          - C
+          - D
+        type: MultipleChoice
+        choices:
+          - content: Public Goods
+            key: A
+          - content: Marketing & Growth
+            key: B
+          - content: ENS Ecosystem
+            key: C
+          - content: Meta-Governance
+            key: D
+      - uuid: 870c66ba-0e0a-4a88-8791-5210da5f56a8
+        content: Which working group is responsible for technical matters related to ENS?
+        type: SingleChoice
+        answerKeys:
+          - C
+        choices:
+          - content: Public Goods
+            key: A
+          - content: Marketing & Growth
+            key: B
+          - content: ENS Ecosystem
+            key: C
+          - content: Meta-Governance
+            key: D
+  - uuid: 48bc0a7a-3e2c-4474-9aa7-0bfbd5381993
     name: Meta-Governance Working Group
     content: |
       Meta Governance working group is responsible for the following things
-      * Governance process and DAO structures - Wokring on things like DAO documentation, as it helps to provide 
+      * Governance process and DAO structures - Working on things like DAO documentation, as it helps to provide 
         a roadmap for how the governance processes should work. Another important ingredient is administering experiments 
-        related to onboarding, engaging, and valuing  contributors within the DAO. 
+        related to onboarding, engaging, and valuing contributors within the DAO. 
       
         It also includes other initiatives like creating a reimbursement program to compesate people for the gas fees spen for
         on-chain voting, DAO-specific sponsorships or partnerships etc.
@@ -45,6 +79,40 @@ steps:
 
       * Treasury management - includes deciding on any management and diversification strategies of ENS DAO Treasury
     stepItems: []
+  - uuid: 51b9b40b-b1f3-4d9a-82d8-e14025628c86
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: fca4a797-4786-4dda-a5b6-bf0f2e8f8758
+        content: Which of these is not a responsibility of Meta-Governance Working Group?
+        type: SingleChoice
+        answerKeys:
+          - C
+        choices:
+          - content: Governance process and DAO structures
+            key: A
+          - content: Treasury management
+            key: B
+          - content: Product Development
+            key: C
+          - content: DAO Tooling
+            key: D
+      - uuid: 22e113fa-a57b-445d-8b83-7e69a0cfec15
+        content: What type of initialives fall under Meta-Governance Working Group?
+        type: MultipleChoice
+        answerKeys:
+          - A
+          - B
+          - C
+        choices:
+          - content: Onboarding
+            key: A
+          - content: Valuing contributors within the DA
+            key: B
+          - content: Airdrop strategies or compensating the voters
+            key: C
+          - content: Public Goods
+            key: D
   - uuid: d1599256-602b-419c-baa4-5f6fe9883a04
     name: Ecosystem Working Group
     content: |

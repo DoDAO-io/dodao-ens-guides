@@ -21,12 +21,40 @@ There are currently three foundational working groups:
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### Select the current working groups of ENS DAO  
+
+- [x]  Public Goods
+- [ ]  Marketing & Growth
+- [x]  ENS Ecosystem
+- [x]  Meta-Governance
+
+
+
+
+
+##### Which working group is responsible for technical matters related to ENS?  
+
+- [ ]  Public Goods
+- [ ]  Marketing & Growth
+- [x]  ENS Ecosystem
+- [ ]  Meta-Governance
+
+    
+
+
+---
 ## Meta-Governance Working Group
 
 Meta Governance working group is responsible for the following things
-* Governance process and DAO structures - Wokring on things like DAO documentation, as it helps to provide 
+* Governance process and DAO structures - Working on things like DAO documentation, as it helps to provide 
   a roadmap for how the governance processes should work. Another important ingredient is administering experiments 
-  related to onboarding, engaging, and valuing  contributors within the DAO. 
+  related to onboarding, engaging, and valuing contributors within the DAO. 
 
   It also includes other initiatives like creating a reimbursement program to compesate people for the gas fees spen for
   on-chain voting, DAO-specific sponsorships or partnerships etc.
@@ -36,6 +64,34 @@ Meta Governance working group is responsible for the following things
 
 * Treasury management - includes deciding on any management and diversification strategies of ENS DAO Treasury
 
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### Which of these is not a responsibility of Meta-Governance Working Group?  
+
+- [ ]  Governance process and DAO structures
+- [ ]  Treasury management
+- [x]  Product Development
+- [ ]  DAO Tooling
+
+
+
+
+
+##### What type of initialives fall under Meta-Governance Working Group?  
+
+- [x]  Onboarding
+- [x]  Valuing contributors within the DA
+- [x]  Airdrop strategies or compensating the voters
+- [ ]  Public Goods
 
     
 
