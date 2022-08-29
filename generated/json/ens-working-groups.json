@@ -160,10 +160,76 @@
       "stepItems": []
     },
     {
+      "uuid": "dd833492-be24-4abe-931f-2f1f61208367",
+      "name": "Evaluation",
+      "content": "",
+      "stepItems": [
+        {
+          "uuid": "7d5b85e3-f01e-42d6-8cba-3ca627e7c2d3",
+          "content": "Which of these is needed to be granted a Rapid Grant?",
+          "answerKeys": [
+            "C"
+          ],
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "Only granted if the project can grow the community by 1000+ members",
+              "key": "A"
+            },
+            {
+              "content": "Can be granted only upon approval by the whole ENS DAO",
+              "key": "B"
+            },
+            {
+              "content": "Can be granted based on approval by Steward",
+              "key": "C"
+            },
+            {
+              "content": "Only granted after voting by all the Stewards of the DAO",
+              "key": "D"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "uuid": "e1bf55f1-1d8c-4130-b91f-a807695693d3",
       "name": "Working Group Stewards",
       "content": "Working Group Stewards\n\nStewards will be elected, unless otherwise stated in these rules, to serve within working groups for a set period \nof time (hereafter known as a ‘Term’ or ‘Terms’).\n\nThere are two Terms each calendar year:\n* The first Term commences at 9am UTC on January 1 each year and ends immediately prior to the commencement of the \n  second Term (‘First Term’); and\n* The second Term commences at 9am UTC on July 1 each year and ends immediately prior to the commencement of the \n  First Term of the following year (‘Second Term’).\n\nStewards are responsible for managing the operations of each working group.\n\nStewards are responsible for the management and administration of a working group. This includes creating a description \nof the group's focus and purpose, as well as developing goals for the term and providing a road map for achieving \nthose goals. Stewards also have the authority to approve the creation or dissolution of sub-groups or workstreams \nwithin a working group.\n\nNot only do they have to request funding from the DAO, but they also have to approve and make funding available to \nsub-groups, workstreams, or contributors within the working group. In order to request working group funds, Stewards \nof all working groups will need to submit an active executable proposal, as defined by the ENS governance documentation \n40 ('Collective Proposal'), to the DAO within the final 15 days of each calendar year (each a 'Funding Window').\n\nFor a working group to have its funding request included in a proposal submitted to the DAO during a Funding \nWindow, the request must first pass as a Social Proposal during that same Funding Window. In an emergency situation \nwhere working group funds are needed by a group outside of a Funding Window, an Executable Proposal may be submitted \nat any time by a Steward of the working group to request funds from the DAO.\n",
       "stepItems": []
+    },
+    {
+      "uuid": "879f6507-8705-4926-81b1-a47f6eeafcfc",
+      "name": "Evaluation",
+      "content": "",
+      "stepItems": [
+        {
+          "uuid": "3509a774-5425-49cc-bf0b-3e1ac371182b",
+          "content": "How many terms do stewards have in one calander year?",
+          "answerKeys": [
+            "B"
+          ],
+          "type": "SingleChoice",
+          "choices": [
+            {
+              "content": "One",
+              "key": "A"
+            },
+            {
+              "content": "Two",
+              "key": "B"
+            },
+            {
+              "content": "Six",
+              "key": "C"
+            },
+            {
+              "content": "Three",
+              "key": "D"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

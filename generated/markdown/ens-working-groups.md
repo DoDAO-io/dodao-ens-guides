@@ -133,6 +133,23 @@ ENS protocol and ecosystem, with a focus on all technical matters related to ENS
 
 
 ---
+## Evaluation
+
+
+
+
+
+##### Which of these is needed to be granted a Rapid Grant?  
+
+- [ ]  Only granted if the project can grow the community by 1000+ members
+- [ ]  Can be granted only upon approval by the whole ENS DAO
+- [x]  Can be granted based on approval by Steward
+- [ ]  Only granted after voting by all the Stewards of the DAO
+
+    
+
+
+---
 ## Working Group Stewards
 
 Working Group Stewards
@@ -163,6 +180,23 @@ Window, the request must first pass as a Social Proposal during that same Fundin
 where working group funds are needed by a group outside of a Funding Window, an Executable Proposal may be submitted 
 at any time by a Steward of the working group to request funds from the DAO.
 
+
+    
+
+
+---
+## Evaluation
+
+
+
+
+
+##### How many terms do stewards have in one calander year?  
+
+- [ ]  One
+- [x]  Two
+- [ ]  Six
+- [ ]  Three
 
     
 

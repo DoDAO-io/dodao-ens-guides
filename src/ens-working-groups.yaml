@@ -141,6 +141,25 @@ steps:
         Rounds over the next six months, GR15 and GR16. This amount is not related to the funding for the ENS Ecosystem 
         Round, which is funded by the Ecosystem Working Group.
     stepItems: []
+  - uuid: dd833492-be24-4abe-931f-2f1f61208367
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: 7d5b85e3-f01e-42d6-8cba-3ca627e7c2d3
+        content: Which of these is needed to be granted a Rapid Grant?
+        answerKeys:
+          - C
+        type: SingleChoice
+        choices:
+          - content: Only granted if the project can grow the community by 1000+ members
+            key: A
+          - content: Can be granted only upon approval by the whole ENS DAO
+            key: B
+          - content: Can be granted based on approval by Steward
+            key: C
+          - content: Only granted after voting by all the Stewards of the DAO
+            key: D
+
   - uuid: e1bf55f1-1d8c-4130-b91f-a807695693d3
     name: Working Group Stewards
     content: |
@@ -172,3 +191,21 @@ steps:
       where working group funds are needed by a group outside of a Funding Window, an Executable Proposal may be submitted 
       at any time by a Steward of the working group to request funds from the DAO.
     stepItems: []
+  - uuid: 879f6507-8705-4926-81b1-a47f6eeafcfc
+    name: Evaluation
+    content: |
+    stepItems:
+      - uuid: 3509a774-5425-49cc-bf0b-3e1ac371182b
+        content: How many terms do stewards have in one calander year?
+        answerKeys:
+          - B
+        type: SingleChoice
+        choices:
+          - content: One
+            key: A
+          - content: Two
+            key: B
+          - content: Six
+            key: C
+          - content: Three
+            key: D
