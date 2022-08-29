@@ -89,7 +89,7 @@ Meta Governance working group is responsible for the following things
 ##### What type of initialives fall under Meta-Governance Working Group?  
 
 - [x]  Onboarding
-- [x]  Valuing contributors within the DA
+- [x]  Valuing contributors within the DAO
 - [x]  Airdrop strategies or compensating the voters
 - [ ]  Public Goods
 
@@ -145,6 +145,17 @@ ENS protocol and ecosystem, with a focus on all technical matters related to ENS
 - [ ]  Can be granted only upon approval by the whole ENS DAO
 - [x]  Can be granted based on approval by Steward
 - [ ]  Only granted after voting by all the Stewards of the DAO
+
+
+
+
+
+##### Which of these is not a valid type of grant of Public Goods Working Group?  
+
+- [x]  ENS Education
+- [ ]  Rapid Grant
+- [ ]  Bounties
+- [ ]  Gitcoin Grants
 
     
 

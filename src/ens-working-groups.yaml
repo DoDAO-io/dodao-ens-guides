@@ -107,7 +107,7 @@ steps:
         choices:
           - content: Onboarding
             key: A
-          - content: Valuing contributors within the DA
+          - content: Valuing contributors within the DAO
             key: B
           - content: Airdrop strategies or compensating the voters
             key: C
@@ -158,6 +158,20 @@ steps:
           - content: Can be granted based on approval by Steward
             key: C
           - content: Only granted after voting by all the Stewards of the DAO
+            key: D
+      - uuid: f6e47785-c382-4b90-a3e6-24e181f610a5
+        content: Which of these is not a valid type of grant of Public Goods Working Group?
+        answerKeys:
+          - A
+        type: SingleChoice
+        choices:
+          - content: ENS Education
+            key: A
+          - content: Rapid Grant
+            key: B
+          - content: Bounties
+            key: C
+          - content: Gitcoin Grants
             key: D
 
   - uuid: e1bf55f1-1d8c-4130-b91f-a807695693d3
