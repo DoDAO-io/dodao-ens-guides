@@ -44,3 +44,6 @@ Proposal Process
 https://docs.ens.domains/v/governance/process#the-rfp-process
 
 
+### Community Mods
+https://twitter.com/serenae_fansubs
+https://twitter.com/realZadok7
