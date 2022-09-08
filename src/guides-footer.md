@@ -9,6 +9,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 - Session3: Layer 2 - https://www.youtube.com/watch?v=9DdL7AQgXTM
 - Session4: Show & Tell - https://www.youtube.com/watch?v=tZWRO6srhZw
 
+### ETHGlobal
+- Session: https://www.youtube.com/watch?v=26JAdqjcrDI 
 
 ### ENS Workshops
 - ENS Workshop 1: ENS as NFT v2 (aka Name Wrapper) - https://www.youtube.com/watch?v=MRiBdqE3pDc
