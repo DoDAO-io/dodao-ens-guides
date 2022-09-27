@@ -82,9 +82,8 @@ steps:
 
       **Efficiency and Simplicity: **
       ENS simplifies the transactions of the cryptocurrency. We can register our owned DNS domains in ENS. ENS domains can have multiple use cases example, they can be used for payments, web 
-      domains(can be used for multiple websites),Twitter handles, email addresses, etc. The domain names can have emojis in ENS. Users are allowed to create multiple subdomains with single ENS domain. The domains are very cheap when compared to DNS as the protocol is 
-      decentralized. Regarding DNS, we need to pay separate amounts for services depending on the features we want. 
-      
+      domains(can be used for multiple websites),Twitter handles, email addresses, etc. The domain names can have emojis in ENS. Users are allowed to create multiple subdomains with single ENS domain. 
+     
       ### Difference between ENS and DNS
 
       | ENS                                                                                                                                                          | DNS                                                                             |
@@ -153,8 +152,8 @@ steps:
   - uuid: 7738b558-74fe-4fc1-8ac8-cc3b6a4d414a
     name: Important contracts
     content: |
-      ENS contains two main smart contracts which are responsible for the working of the ENS domains. They are registry and resolver.The registry contract contains all the necessary 
-      information like the owner address of the domain,the address of the resolver contract, etc. The resolver contract manages the queries, mapping of  ens names to addresses, etc.
+      ENS contains two main smart contracts which are responsible for the working of the ENS domains. They are registry and resolver. The registry contract contains all the necessary 
+      information like the owner address of the domain, the address of the resolver contract, etc. The resolver contract manages the queries For example if an user wants to associate url or email with the ENS domain the resolver will associate the text records to the domain, mapping of ENS names to addresses, etc.
 
       ### Registry 
       This is the smart contract that stores all the domains and subdomains with the following records.
@@ -203,7 +202,7 @@ steps:
         choices:
           - content: Resolver is a contract which translates names to addresses and other data provided by the user
             key: A
-          - content: It is responsible for managing queries. For example if an user wants to associate url or email with the ENS domain the resolver manages the query and associate the text records to the domain.
+          - content: It is responsible for managing queries like associating the  text records provided by user to the ENS domains .
             key: B
           - content: It is responsible for storing the domains and addresses
             key: C
@@ -294,7 +293,7 @@ steps:
             key: B
           - content: Users must pay different amount for different features after purchasing the domains
             key: C
-          - content: Users are required to setup the reverse records for the replacing of addresses with domain names  such that names are displayed instead of addresses
+          - content: Users are required to setup the reverse records for the replacing of addresses with domain names such that names are displayed instead of addresses
             key: D
       
       - uuid: dfd0bab5-a260-47df-adac-67114dd3f29f
@@ -320,7 +319,7 @@ steps:
       **ENS Working - EIP-137**
 
       The EIP-137 proposal explains the working model of the ENS protocol, including the registry and resolver contracts. It describes the functions and requirements of these contracts, as well as the
-      option for adding subdomains. Finally, it outlines the main improvements to the ENS protocol, including the public resolver contract.
+      option for adding subdomains. Finally, it outlines the main improvements to the ENS protocol including the public resolver contract.
 
       **Reverse solution-EIP-181**
 
