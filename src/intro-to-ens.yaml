@@ -80,7 +80,7 @@ steps:
       **Security and decentralization: **
       The security is very high in ENS when compared to DNS. The domains are secured by the Ethereum blockchain, and ENS is decentralized. So there is no censorship resistance, and The protocol is transparent.
 
-      **Efficiency and simplicity: **
+      **Efficiency and Simplicity: **
       ENS simplifies the transactions of the cryptocurrency. We can register our owned DNS domains in ENS. ENS domains can have multiple use cases example, they can be used for payments, web 
       domains(can be used for multiple websites),Twitter handles, email addresses, etc. The domain names can have emojis in ENS. Users are allowed to create multiple subdomains with single ENS domain. The domains are very cheap when compared to DNS as the protocol is 
       decentralized. Regarding DNS, we need to pay separate amounts for services depending on the features we want. 
@@ -125,7 +125,7 @@ steps:
         choices:
           - content: High Security provided by Ethereum blockchain 
             key: A
-          - content: Resistance to censorship and domains are very cheap when compared to DNS
+          - content: Resistance to censorship 
             key: B
           - content: Domains are free 
             key: C
@@ -164,12 +164,12 @@ steps:
 
       All the records are stored in Record(struct data type). The domain names are mapped as hashes using namehash algorithm and called nodes. The nodes are mapped to the Record, which 
       contains the addresses of the owner, the resolver contract, and the Time-to-live value. The domains are not directly stored in registry. Instead, they are stored as hashes. Hashes are 
-      excellent for providing a fixed-length identifier that can be passed around easily between contracts.Before being hashed with namehash, names are first normalized using a process called UTS-46 normalization.
+      excellent for providing a fixed-length identifier that can be passed around easily between contracts. Before being hashed with namehash, names are first normalized using a process called UTS-46 normalization.
       The output of the namehash is called “Node.”
 
       ## Resolver 
       Resolvers are responsible for translating the name to the addresses or other data provided by the user. Resolving a name in ENS is a two-step process: First, ask the registry what resolver is responsible for the name,
-      and second, ask that resolver for the answer to your query. A resolver can be any contract that meets the relevant standards to act as a resolver.For example according to EIP-137 the resolver contract must have the function.
+      and second, ask that resolver for the answer to your query. A resolver can be any contract that meets the relevant standards to act as a resolver. For example according to EIP-137 the resolver contract must have the function.
       ```
       supportsInterface(bytes4 interfaceID) constant returns (bool);
 
@@ -186,7 +186,7 @@ steps:
         choices:
           - content: Registry is a smart-contract which translates names to addresses and to other data.
             key: A
-          - content: It is the smart contract that stores all the domains and subdomains with addresses of owner,resolver and TTL.
+          - content: It is the smart contract that stores all the domains and subdomains with addresses of owner, resolver and TTL.
             key: B
           - content: Registry is a smartcontract which can be used for purchasing domains in ENS
             key: C
@@ -203,11 +203,11 @@ steps:
         choices:
           - content: Resolver is a contract which translates names to addresses and other data provided by the user
             key: A
-          - content: It is reponsible for managing queries
+          - content: It is responsible for managing queries. For example if an user wants to associate url or email with the ENS domain the resolver manages the query and associate the text records to the domain.
             key: B
           - content: It is responsible for storing the domains and addresses
             key: C
-          - content: A smarcontract contract can be a resolver That meets relevant conditions for being.Users can create their own resolver
+          - content: A smartcontract contract can be a resolver That meets relevant conditions for being. Users can create their own resolver
             key: D
       
       - uuid: 310ec5f6-5879-44f9-8306-fb586ccd8dd8
@@ -231,8 +231,8 @@ steps:
         ### Working 
 
         Users can buy an available domain, after buying the domain user must set up the addresses for the wallet and resolver. User can set a public resolver or a custom resolver. Name is hashed and recorded in the registry, 
-        along with their node's address, resolver address, and TTL. The nodes are mapped to the record, which has the owner’s address, resolver address, and TTL. we need to assign the resolver after owning the domain successfully. 
-        we can set up a public resolver that has most of the necessary functionalities. However, users can also create and use their own custom resolvers according to their specific needs. Users are also required to setup reverse 
+        along with their node's address, resolver address, and TTL. The nodes are mapped to the record, which has the owner’s address, resolver address, and TTL. We need to assign the resolver after owning the domain successfully. 
+        We can set up a public resolver that has most of the necessary functionalities. However, users can also create and use their own custom resolvers according to their specific needs. Users are also required to setup reverse 
         records for replacing of addresses with domain names such that names are displayed instead of addresses.
 
         Resolving a name in ENS is a two-step process: First, ask the registry what resolver is responsible for the name, and second, ask that resolver for the answer to your query. The domain is owned by the owner till the deadline 
@@ -288,7 +288,7 @@ steps:
           - D
         type: MultipleChoice
         choices:
-          - content: User must set the resolver address.It can be either public resolver or custom resolver.
+          - content: User must set the resolver address. It can be either public resolver or custom resolver.
             key: A
           - content: User must set the wallet addresses and text records like emails if required
             key: B
@@ -330,7 +330,7 @@ steps:
 
       **Text records-EIP-634**
 
-      This proposal implements a new interfaceID for storing the text records by which ENS domain can be used instead of the records. we can link global keys like email, discription, url etc. We can link 
+      This proposal implements a new interfaceID for storing the text records by which ENS domain can be used instead of the records. We can link global keys like email, discription, url etc. We can link 
       public keys like social media handles, github handles, etc. This is the main motive of this proposal.
 
     stepItems: []
