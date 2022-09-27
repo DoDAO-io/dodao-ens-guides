@@ -15,15 +15,15 @@ steps:
     name: Overview
     content: |
       Ethereum name service(ENS) is a decentralized naming protocol that maps the human-readable addresses to the cryptographic addresses 
-      or Ethereum addresses in the Ethereum mainnet. It works similarly to DNS, where DNS maps the domain to the IP addresses but has a significantly different 
+      or Ethereum addresses on the Ethereum mainnet. It works similarly to DNS, where DNS maps the domain to the IP addresses but has a significantly different 
       architecture due to the capabilities and constraints provided by the Ethereum blockchain.
 
       Just like DNS, ENS also uses dot-separated hierarchical domain names. The owner of a domain has complete control over its subdomains. So, if a user owns alice.eth, 
       that user can also create pay.alice.eth or mail.alice.eth, and so on. ENS makes it easy for users to create these subdomains from the main domain.
-      The domain names are secured from squatters by dutch auction which will be conducted once a domain is released. Users can set subdomains without any limit and users have access to assign new owners for the domains and sub domains.
+      Users can set subdomains without any limit and users have access to assign new owners for the domains and sub domains. Users can set subdomains without any limit and users have access to assign new owners for the domains and sub domains.
 
       An ENS domain with an .eth TLD (top-level domain) is an NFT. So, it can be traded like an NFT in marketplaces like Open Sea. For example, Alice.eth is an NFT, but Alice.xyz is not an NFT.
-      ENS domains are a great way to manage multiple web services in one easy-to-use, decentralized address.The following records can be added to the ENS domains
+      ENS domains are a great way to manage multiple web services in one easy-to-use, decentralized address. The following records can be added to the ENS domains
       * ETH/BTC/Doge/LTC/Atom/Dash +40 other wallet addresses.
       * IPFS content hashes.
       * Custom text records
@@ -50,7 +50,7 @@ steps:
             key: A
           - content: ENS is a decentralized naming protocol that maps the human-readable addresses to the cryptographic addresses 
             key: B
-          - content: ENS is a Defi 
+          - content: ENS is a DeFi protocol for lending and borrowing
             key: C
           - content: ENS is a protocol for testing smart-contracts
             key: D
@@ -62,11 +62,11 @@ steps:
           - B
         type: MultipleChoice
         choices:
-          - content: ENS domains with .eth tld is an NFT
+          - content: ENS domains with .eth top level domain is an NFT
             key: A
           - content: ENS maps human-readable names to cryptographic addresses
             key: B
-          - content: subdomains cannot be created using ENS domains
+          - content: Subdomains cannot be created using ENS domains
             key: C
           - content: ENS Domains can be used only for URLs
             key: D
@@ -82,8 +82,8 @@ steps:
 
       **Efficiency and simplicity: **
       ENS simplifies the transactions of the cryptocurrency. We can register our owned DNS domains in ENS. ENS domains can have multiple use cases example, they can be used for payments, web 
-      domains(can be used for multiple websites),Twitter handles, email addresses, etc.The domain names can have emojis in ENS.Users are allowed to create multiple subdomains with single ENS domain.The domains are very cheap when compared to DNS as the protocol is 
-      decentralized.Regarding DNS, we need to pay separate amounts for services depending on the features we want. 
+      domains(can be used for multiple websites),Twitter handles, email addresses, etc. The domain names can have emojis in ENS. Users are allowed to create multiple subdomains with single ENS domain. The domains are very cheap when compared to DNS as the protocol is 
+      decentralized. Regarding DNS, we need to pay separate amounts for services depending on the features we want. 
       
       ### Difference between ENS and DNS
 
@@ -142,11 +142,11 @@ steps:
         choices:
           - content: ENS and DNS both are centralized 
             key: A
-          - content: security in ENS is better than DNS.
+          - content: Security in ENS is better than DNS.
             key: B
           - content: Users are allowed to create multiple subdomains with one ENS domain.
             key: C
-          - content: ENS domains can be used for various purposes like wallet address,twiiter handles,etc.
+          - content: ENS domains can be used for various purposes like wallet address, twiiter handles, etc.
             key: D
       
 
@@ -154,7 +154,7 @@ steps:
     name: Important contracts
     content: |
       ENS contains two main smart contracts which are responsible for the working of the ENS domains. They are registry and resolver.The registry contract contains all the necessary 
-      information like the owner address of the domain,the address of the resolver contract, etc.The resolver contract manages the queries, mapping of  ens names to addresses, etc.
+      information like the owner address of the domain,the address of the resolver contract, etc. The resolver contract manages the queries, mapping of  ens names to addresses, etc.
 
       ### Registry 
       This is the smart contract that stores all the domains and subdomains with the following records.
@@ -163,12 +163,12 @@ steps:
       3. TTL(Time-to-live) which the time period for the expiration.
 
       All the records are stored in Record(struct data type). The domain names are mapped as hashes using namehash algorithm and called nodes. The nodes are mapped to the Record, which 
-      contains the addresses of the owner, the resolver contract, and the Time-to-live value.The domains are not directly stored in registry. Instead, they are stored as hashes.Hashes are 
+      contains the addresses of the owner, the resolver contract, and the Time-to-live value. The domains are not directly stored in registry. Instead, they are stored as hashes. Hashes are 
       excellent for providing a fixed-length identifier that can be passed around easily between contracts.Before being hashed with namehash, names are first normalized using a process called UTS-46 normalization.
       The output of the namehash is called “Node.”
 
       ## Resolver 
-      Resolvers are responsible for translating the name to the addresses or other data provided by the user.Resolving a name in ENS is a two-step process: First, ask the registry what resolver is responsible for the name,
+      Resolvers are responsible for translating the name to the addresses or other data provided by the user. Resolving a name in ENS is a two-step process: First, ask the registry what resolver is responsible for the name,
       and second, ask that resolver for the answer to your query. A resolver can be any contract that meets the relevant standards to act as a resolver.For example according to EIP-137 the resolver contract must have the function.
       ```
       supportsInterface(bytes4 interfaceID) constant returns (bool);
@@ -230,19 +230,19 @@ steps:
     content: |
         ### Working 
 
-        Users can buy an available domain, after buying the domain user must set up the addresses for the wallet and resolver.User can set a public resolver or a custom resolver. name is hashed and recorded in the registry, 
+        Users can buy an available domain, after buying the domain user must set up the addresses for the wallet and resolver. User can set a public resolver or a custom resolver. Name is hashed and recorded in the registry, 
         along with their node's address, resolver address, and TTL. The nodes are mapped to the record, which has the owner’s address, resolver address, and TTL. we need to assign the resolver after owning the domain successfully. 
         we can set up a public resolver that has most of the necessary functionalities. However, users can also create and use their own custom resolvers according to their specific needs. Users are also required to setup reverse 
         records for replacing of addresses with domain names such that names are displayed instead of addresses.
 
         Resolving a name in ENS is a two-step process: First, ask the registry what resolver is responsible for the name, and second, ask that resolver for the answer to your query. The domain is owned by the owner till the deadline 
         after that the owner has to renew it within 90 days' grace time. After the grace period, the name is released for registration by anyone with a temporary premium which decreases over a 28 days period to prevent domain squatters.
-        The released and registered names can be viewed in [Dune analytics dashboard](https://dune.com/makoto/ens-released-to-be-released-names).Anyone can extend a domain’s expiration period but the ownership is still maintained by the owner 
-        of that domain.Currently registration and renewal cost $5/year for names that are five characters or longer. Four character names cost $160/year, and three character names cost $640/year. Domains are bought using Eth similarly gas fees are paid in Eth.
+        The released and registered names can be viewed in [Dune analytics dashboard](https://dune.com/makoto/ens-released-to-be-released-names). Anyone can extend a domain’s expiration period but the ownership is still maintained by the owner 
+        of that domain. Currently registration and renewal cost $5/year for names that are five characters or longer. Four character names cost $160/year, and three character names cost $640/year. Domains are bought using Eth similarly gas fees are paid in Eth.
         
-        ### ENS as NFTs 
+        ### ENS Domains as NFTs 
 
-        Ens domains with .eth are NFTs because they are in ERC-721 standards.All NFTs have a unique uint256 tokenID from which we can convert to the actual content or art or data. The domains with .eth are traded and exchanged like NFTs.The tokenID’s are globally unique.
+        ENS domains with .eth are NFTs because they are in ERC-721 standards. All NFTs have a unique uint256 tokenID from which we can convert to the actual content or art or data. The domains with .eth are traded and exchanged like NFTs. The tokenID’s are globally unique.
         
         **Deriving tokenID from the ENS name**
         For example, to derive tokenID for the domain harry.eth we use the following code to implement.
@@ -271,7 +271,7 @@ steps:
           - B
         type: MultipleChoice
         choices:
-          - content: renewal must be done within 1 day after deadline
+          - content: Renewal must be done within 1 day after deadline
             key: A
           - content: Anyone can extend expiration period of any domain but the ownership of the domain is retained by the owner
             key: B
@@ -324,14 +324,14 @@ steps:
 
       **Reverse solution-EIP-181**
 
-      The purpose of this proposal is to reverse the process for ENS domains. For example, if we look at Etherscan, we can see that the "from" ID is currently an address. However, after this proposed reverse 
-      solution is enacted, the address will be replaced with the ENS domain name only if that address owns a ENS domain and has set a primary ENS name.Anyone can configure a name to resolve to an address, 
+      The purpose of this proposal is to reverse the process for ENS domains. For example, if we look at Etherscan, we can see that the "from" ID is currently an address. However, after this proposal reverse 
+      solution is enacted, the address will be replaced with the ENS domain name only if that address owns a ENS domain and has set a primary ENS name. Anyone can configure a name to resolve to an address, 
       regardless of ownership of that address. Reverse records allow the owner of an address to claim a name as authoritative for that address.
 
       **Text records-EIP-634**
 
-      This proposal implements a new interfaceID for storing the text records by which ENS domain can be used instead of the records.we can link global keys like email,discription,url etc. We can link 
-      public keys like social media handles,github handles, etc. This is the main motive of this proposal.
+      This proposal implements a new interfaceID for storing the text records by which ENS domain can be used instead of the records. we can link global keys like email, discription, url etc. We can link 
+      public keys like social media handles, github handles, etc. This is the main motive of this proposal.
 
     stepItems: []
   - uuid: 94ffa9f2-081f-49b1-90a1-72140210e80c
