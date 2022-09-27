@@ -224,6 +224,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 - Session3: Layer 2 - https://www.youtube.com/watch?v=9DdL7AQgXTM
 - Session4: Show & Tell - https://www.youtube.com/watch?v=tZWRO6srhZw
 
+### ETHGlobal
+- Session: https://www.youtube.com/watch?v=26JAdqjcrDI 
 
 ### ENS Workshops
 - ENS Workshop 1: ENS as NFT v2 (aka Name Wrapper) - https://www.youtube.com/watch?v=MRiBdqE3pDc
@@ -259,4 +261,41 @@ Proposal Process
 https://docs.ens.domains/v/governance/process#the-rfp-process
 
 
+### Community Mods
+https://twitter.com/serenae_fansubs
+https://twitter.com/realZadok7
+
+### ENS Grants
+Airtable form to notify ENS that you have submitted your grant: 
+
+https://airtable.com/shrtIhtC5VZJzJnvU
+
+(and to make sure the tag gets added)
+
+Some context on grant ideas
+The Grant should be focused on accomplishing the following for ENS:
+Usability - improving the user experience
+Community - growing the ecosystem
+Tooling - improving the developer experience
+Governance - building tools and enhancements for governance
+Education - content creation and initiatives to improve educational resources
+
+https://docs.google.com/document/d/1b7ulHiSz6db9YN5ESg2hPacTJUcqGZGvkMh5AeBMyVc/edit
+
+I would browse through current projects on Gitcoin too: 
+https://gitcoin.co/grants/explorer/?page=1&limit=12&me=false&sort_option=weighted_shuffle&collection_id=false&network=mainnet&state=active&profile=false&round_num=0&customer_name=false&sub_round_slug=false&collections_page=1&grant_regions=&grant_types=&grant_tags=*ENS&tenants=&idle=true&featured=true&round_type=false&tab=grants
+
+(sorry that was a long link)
+
+
+
+What does it do?
+What have you done?
+What are you doing?
+https://airtable.com/shrtIhtC5VZJzJnvU
+
+https://hackmd.io/zxAcn501TlKUHcEwQXYi3Q
+
+
+https://docs.google.com/document/d/1b7ulHiSz6db9YN5ESg2hPacTJUcqGZGvkMh5AeBMyVc/edit
     
