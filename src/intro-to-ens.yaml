@@ -20,7 +20,7 @@ steps:
 
       Just like DNS, ENS also uses dot-separated hierarchical domain names. The owner of a domain has complete control over its subdomains. So, if a user owns alice.eth, 
       that user can also create pay.alice.eth or mail.alice.eth, and so on. ENS makes it easy for users to create these subdomains from the main domain.
-      Users can set subdomains without any limit and users have access to assign new owners for the domains and sub domains. Users can set subdomains without any limit and users have access to assign new owners for the domains and sub domains.
+      Users can set subdomains without any limit and users have access to assign new owners for the domains and sub domains.
 
       An ENS domain with an .eth TLD (top-level domain) is an NFT. So, it can be traded like an NFT in marketplaces like Open Sea. For example, Alice.eth is an NFT, but Alice.xyz is not an NFT.
       ENS domains are a great way to manage multiple web services in one easy-to-use, decentralized address. The following records can be added to the ENS domains
@@ -41,7 +41,7 @@ steps:
     content: |
     stepItems:
       - uuid: 2aa07f42-9a6a-4724-aa57-4214d768ade8
-        content: What is ENS
+        content: What is ENS?
         answerKeys:
           - B
         type: SingleChoice
@@ -78,11 +78,11 @@ steps:
       ### Advantages of ENS over DNS 
 
       **Security and decentralization: **
-      The security is very high in ENS when compared to DNS. The domains are secured by the Ethereum blockchain, and ENS is decentralized. So there is no censorship resistance, and The protocol is transparent.
+      The security is very high in ENS when compared to DNS. The domains are secured by the Ethereum blockchain. ENS is decentralized so there is no censorship resistance and The protocol is transparent.
 
       **Efficiency and Simplicity: **
       ENS simplifies the transactions of the cryptocurrency. We can register our owned DNS domains in ENS. ENS domains can have multiple use cases example, they can be used for payments, web 
-      domains(can be used for multiple websites),Twitter handles, email addresses, etc. The domain names can have emojis in ENS. Users are allowed to create multiple subdomains with single ENS domain. 
+      domains(can be used for multiple websites), Twitter handles, email addresses, etc. The domain names can have emojis in ENS. Users are allowed to create multiple subdomains with single ENS domain. 
      
       ### Difference between ENS and DNS
 
@@ -153,7 +153,7 @@ steps:
     name: Important contracts
     content: |
       ENS contains two main smart contracts which are responsible for the working of the ENS domains. They are registry and resolver. The registry contract contains all the necessary 
-      information like the owner address of the domain, the address of the resolver contract, etc. The resolver contract manages the queries For example if an user wants to associate url or email with the ENS domain the resolver will associate the text records to the domain, mapping of ENS names to addresses, etc.
+      information like the owner address of the domain, the address of the resolver contract, etc. The resolver contract manages the queries for example if an user wants to associate url or email with the ENS domain resolver will associate the text records to the domain. Resolver maps ENS names to addresses.
 
       ### Registry 
       This is the smart contract that stores all the domains and subdomains with the following records.
@@ -202,7 +202,7 @@ steps:
         choices:
           - content: Resolver is a contract which translates names to addresses and other data provided by the user
             key: A
-          - content: It is responsible for managing queries like associating the  text records provided by user to the ENS domains .
+          - content: It is responsible for managing queries like associating the text records provided by user to the ENS domains
             key: B
           - content: It is responsible for storing the domains and addresses
             key: C
@@ -215,7 +215,7 @@ steps:
           - A
         type: SingleChoice
         choices:
-          - content: Node is the output of namshash algorithm with the name as input.
+          - content: Node is the output of namshash algorithm with the name as input
             key: A
           - content: Node is an another smart-contract which stores the domains and addresses for backup
             key: B
@@ -280,7 +280,7 @@ steps:
             key: D 
 
       - uuid: c58fdd4a-fdf5-44a7-af19-f09bd275164f
-        content: What are the following the user must do after purchasing the domains.
+        content: What are the following the user must do after purchasing the domains?
         answerKeys:
           - A
           - B
@@ -297,7 +297,7 @@ steps:
             key: D
       
       - uuid: dfd0bab5-a260-47df-adac-67114dd3f29f
-        content: Which of the following are correct about ENS domains as NFTs ?
+        content: Which of the following are correct about ENS domains as NFTs?
         answerKeys:
           - C
           - D
