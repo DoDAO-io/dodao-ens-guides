@@ -159,7 +159,7 @@ steps:
       This is the smart contract that stores all the domains and subdomains with the following records.
       1. Address of the owner
       2. Address of resolver contract
-      3. TTL(Time-to-live) which the time period for the expiration.
+      3. TTL(Time-to-live) the time period for the expiration of the domain.
 
       All the records are stored in Record(struct data type). The domain names are mapped as hashes using namehash algorithm and called nodes. The nodes are mapped to the Record, which 
       contains the addresses of the owner, the resolver contract, and the Time-to-live value. The domains are not directly stored in registry. Instead, they are stored as hashes. Hashes are 
