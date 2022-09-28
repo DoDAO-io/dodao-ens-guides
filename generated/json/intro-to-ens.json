@@ -377,10 +377,6 @@
           "label": "Nick Name",
           "required": true,
           "type": "PublicShortInput"
-        },
-        {
-          "uuid": "c0fc0cbc-4e83-45be-a3a8-9ef344a764c0",
-          "type": "UserDiscordConnect"
         }
       ]
     }
