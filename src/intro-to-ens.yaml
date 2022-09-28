@@ -77,10 +77,10 @@ steps:
       
       ### Advantages of ENS over DNS 
 
-      **Security and decentralization: **
+      **Security and decentralization:**
       The security is very high in ENS when compared to DNS. The domains are secured by the Ethereum blockchain. ENS is decentralized so there is no censorship resistance and The protocol is transparent.
 
-      **Efficiency and Simplicity: **
+      **Efficiency and Simplicity:**
       ENS simplifies the transactions of the cryptocurrency. We can register our owned DNS domains in ENS. ENS domains can have multiple use cases example, they can be used for payments, web 
       domains(can be used for multiple websites), Twitter handles, email addresses, etc. The domain names can have emojis in ENS. Users are allowed to create multiple subdomains with single ENS domain. 
      
@@ -137,7 +137,7 @@ steps:
           - B
           - C
           - D
-        type: SingleChoice
+        type: MultipleChoice
         choices:
           - content: ENS and DNS both are centralized 
             key: A
@@ -166,7 +166,7 @@ steps:
       excellent for providing a fixed-length identifier that can be passed around easily between contracts. Before being hashed with namehash, names are first normalized using a process called UTS-46 normalization.
       The output of the namehash is called “Node.”
 
-      ## Resolver 
+      ### Resolver 
       Resolvers are responsible for translating the name to the addresses or other data provided by the user. Resolving a name in ENS is a two-step process: First, ask the registry what resolver is responsible for the name,
       and second, ask that resolver for the answer to your query. A resolver can be any contract that meets the relevant standards to act as a resolver. For example according to EIP-137 the resolver contract must have the function.
       ```
@@ -215,7 +215,7 @@ steps:
           - A
         type: SingleChoice
         choices:
-          - content: Node is the output of namshash algorithm with the name as input
+          - content: Node is the output of namehash algorithm with the name as input
             key: A
           - content: Node is an another smart-contract which stores the domains and addresses for backup
             key: B
@@ -301,7 +301,7 @@ steps:
         answerKeys:
           - C
           - D
-        type: SingleChoice
+        type: MultipleChoice
         choices:
           - content: Every ENS domains are NFTs
             key: A
