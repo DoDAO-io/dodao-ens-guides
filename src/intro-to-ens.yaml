@@ -246,7 +246,7 @@ steps:
         **Deriving tokenID from the ENS name**
         For example, to derive tokenID for the domain harry.eth we use the following code to implement.
 
-        ```
+        ```javascript
         const ethers = require('ethers')
         const BigNumber = ethers.BigNumber
         const utils = ethers.utils
