@@ -216,7 +216,7 @@ ENS domains with .eth are NFTs because they are in ERC-721 standards. All NFTs h
 **Deriving tokenID from the ENS name**
 For example, to derive tokenID for the domain harry.eth we use the following code to implement.
 
-```
+```javascript
 const ethers = require('ethers')
 const BigNumber = ethers.BigNumber
 const utils = ethers.utils
